@@ -1,0 +1,1208 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"xl",
+				"xlabel\t(Results_Plot_TeN_Convergence.m)"
+			],
+			[
+				"So",
+				"SortIndices"
+			],
+			[
+				"Ene",
+				"Energy"
+			],
+			[
+				"Ind",
+				"IndependentVariable"
+			],
+			[
+				"X",
+				"XLim"
+			],
+			[
+				"Mark",
+				"MarkerSize"
+			],
+			[
+				"Line",
+				"LineIndex"
+			],
+			[
+				"Len",
+				"Legend"
+			],
+			[
+				"else",
+				"elseif\telseif"
+			],
+			[
+				"els",
+				"elseif\telseif"
+			],
+			[
+				"log",
+				"logical"
+			],
+			[
+				"Spe",
+				"Species_I2E"
+			],
+			[
+				"In",
+				"IndependentVariable"
+			],
+			[
+				"Inde",
+				"IndependentVariable"
+			],
+			[
+				"P",
+				"PlotStruct"
+			],
+			[
+				"Res",
+				"Results"
+			],
+			[
+				"Y",
+				"Y_N"
+			],
+			[
+				"Y_",
+				"Y_N"
+			],
+			[
+				"Tit",
+				"TitleList"
+			],
+			[
+				"Gas",
+				"GasSupply"
+			],
+			[
+				"Tot",
+				"TotalFlow"
+			],
+			[
+				"Ga",
+				"GasSupply"
+			],
+			[
+				"St",
+				"StartingPressure"
+			],
+			[
+				"Star",
+				"StartingPressure\t(Results_Plot.m)"
+			],
+			[
+				"Powe",
+				"PowerAbsorbed\t(Results_Plot.m)"
+			],
+			[
+				"Resu",
+				"Results"
+			],
+			[
+				"Results",
+				"Results_Struct"
+			],
+			[
+				"IVS",
+				"IVSIndex"
+			],
+			[
+				"Upda",
+				"UpdateSpeciesConcentrations_ConvergenceCheck"
+			],
+			[
+				"sp",
+				"sprintf\t(Evaluation_SingleVariableScan.m)"
+			],
+			[
+				"Initial",
+				"InitialValuesStruct"
+			],
+			[
+				"Test",
+				"TestIndex"
+			],
+			[
+				"Tes",
+				"TestIndex"
+			],
+			[
+				"S",
+				"ShowPlotElement"
+			],
+			[
+				"spr",
+				"sprintf\t(SolveBalanceEquations.m)"
+			],
+			[
+				"Dens",
+				"Density"
+			],
+			[
+				"React",
+				"ReactionLength"
+			],
+			[
+				"Reac",
+				"ReactionLength"
+			],
+			[
+				"Den",
+				"DensityFactor"
+			],
+			[
+				"Leng",
+				"LegendList"
+			],
+			[
+				"Rate",
+				"RateCoeff"
+			],
+			[
+				"Init",
+				"InitialTeStruct"
+			],
+			[
+				"InitialT",
+				"InitialTeStruct"
+			],
+			[
+				"Chec",
+				"CheckIllegalSystemConditions"
+			],
+			[
+				"Return",
+				"Return_Display_dict"
+			],
+			[
+				"Conv",
+				"ConvergencePrecision"
+			],
+			[
+				"Converg",
+				"ConvergencePrecision"
+			],
+			[
+				"Species",
+				"Species_I2E"
+			],
+			[
+				"Solve",
+				"SolveBalanceEquations"
+			],
+			[
+				"C",
+				"Controller"
+			],
+			[
+				"Con",
+				"Controller"
+			],
+			[
+				"Ionwal",
+				"IonWallLossZeros"
+			],
+			[
+				"Ion",
+				"IonicMFP"
+			],
+			[
+				"Conc",
+				"Conc_Rates"
+			],
+			[
+				"Exp",
+				"ExperimentStruct"
+			],
+			[
+				"uB",
+				"uBohmVector"
+			],
+			[
+				"T",
+				"Te_column"
+			],
+			[
+				"Sp",
+				"SpeciesInterdependency"
+			],
+			[
+				"Speci",
+				"Species_I2E"
+			],
+			[
+				"Boo",
+				"Boolean_eC"
+			],
+			[
+				"Te",
+				"Te_row"
+			],
+			[
+				"e",
+				"e_index\t(Precalculate_SystemStruct.m)"
+			],
+			[
+				"En",
+				"Energy"
+			],
+			[
+				"build_Bo",
+				"build_Boolean_gamma_vectors"
+			],
+			[
+				"Energy",
+				"EnergyVector"
+			],
+			[
+				"Pump",
+				"PumpOutMatrix"
+			],
+			[
+				"Pum",
+				"PumpInMatrix"
+			],
+			[
+				"Bo",
+				"Boolean_S"
+			],
+			[
+				"Product",
+				"ProductionMatrix"
+			],
+			[
+				"Por",
+				"ProductionMatrix"
+			],
+			[
+				"Prod",
+				"ProductionMatrix"
+			],
+			[
+				"System",
+				"SystemStruct"
+			],
+			[
+				"Volume",
+				"Volume_v"
+			],
+			[
+				"vdw",
+				"vdWArea"
+			],
+			[
+				"Key",
+				"KeyList"
+			],
+			[
+				"Cross",
+				"CrosssectionDB"
+			],
+			[
+				"Nega",
+				"NegativeIndices"
+			],
+			[
+				"Ill",
+				"IllegalSystemConditions"
+			],
+			[
+				"GUICon",
+				"GUI_control:SolveBalanceEquations:SystemDiverged"
+			],
+			[
+				"Error",
+				"ErrorMonitor"
+			],
+			[
+				"Posit",
+				"PositiveBohmDensity"
+			],
+			[
+				"uBohm",
+				"uBohmDensity"
+			],
+			[
+				"uBoh",
+				"uBohmDensity"
+			],
+			[
+				"Spec",
+				"SpeciesDB"
+			],
+			[
+				"Surf",
+				"SurfaceSiteDensity"
+			],
+			[
+				"Fina",
+				"FinalError"
+			],
+			[
+				"GasS",
+				"GasSupplyIterator"
+			],
+			[
+				"Scan",
+				"ScanLength"
+			],
+			[
+				"Null",
+				"NullReactionIndicies"
+			],
+			[
+				"Nul",
+				"NullSpeciesIndices"
+			],
+			[
+				"GasSu",
+				"GasSupplySpecies"
+			],
+			[
+				"Surface",
+				"SurfaceIndex"
+			],
+			[
+				"Power",
+				"PowerAbsorbed"
+			],
+			[
+				"eV",
+				"eV2J"
+			],
+			[
+				"Sur",
+				"SurfaceIndex"
+			],
+			[
+				"SpeciesI",
+				"Species_I2E"
+			],
+			[
+				"gene",
+				"generate_Surface_Species"
+			],
+			[
+				"is",
+				"isreal"
+			],
+			[
+				"ele",
+				"ElectronIndex"
+			],
+			[
+				"Pr",
+				"ProductionMatrix"
+			],
+			[
+				"num2",
+				"num2cell"
+			],
+			[
+				"Pro",
+				"ProductionMatrix"
+			],
+			[
+				"nDp",
+				"nDependentRates"
+			],
+			[
+				"nDependentRa",
+				"nDependentRates"
+			],
+			[
+				"n",
+				"nDependent"
+			],
+			[
+				"Token",
+				"TokenEvaluation"
+			],
+			[
+				"nDependent",
+				"nDependent_Rate"
+			],
+			[
+				"Eval",
+				"EvaluatedToken"
+			],
+			[
+				"Eva",
+				"EvaluatedToken"
+			],
+			[
+				"str",
+				"strfind"
+			],
+			[
+				"Re",
+				"ReturnString"
+			],
+			[
+				"R",
+				"Results"
+			],
+			[
+				"Conver",
+				"Converged"
+			],
+			[
+				"switc",
+				"switched"
+			],
+			[
+				"gamNH",
+				"gamma_NH_Hs_ER"
+			],
+			[
+				"ga",
+				"gamma_H_Hs_ER"
+			],
+			[
+				"gam",
+				"gamma_NH_ads"
+			],
+			[
+				"Ener",
+				"Energy"
+			],
+			[
+				"Ex",
+				"Experiment"
+			],
+			[
+				"SHow",
+				"ShowElement"
+			],
+			[
+				"Old",
+				"OldKeyLength"
+			],
+			[
+				"sh",
+				"x_shift"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"x",
+				"x_shift"
+			],
+			[
+				"pp",
+				"ppvalfast"
+			],
+			[
+				"Produ",
+				"ProductionScaling"
+			],
+			[
+				"ReactionI",
+				"ReactionIndices"
+			],
+			[
+				"Raecta",
+				"ReactantSpeciesDict"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Misc functions/NeutralPlotting.m",
+			"settings":
+			{
+				"buffer_size": 1344,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"delete ",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"package control",
+				"Package Control: Discover Packages"
+			],
+			[
+				"package control add",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"package control ",
+				"Package Control: Add Channel"
+			],
+			[
+				"package control rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Align",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"sort",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"T",
+				"Typewriter: Scrolling Mode (Toggle)"
+			],
+			[
+				"print",
+				"Print to HTML: print as HTML via browser"
+			],
+			[
+				"typ",
+				"Typewriter: Scrolling Mode (Toggle)"
+			],
+			[
+				"",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"type",
+				"Typewriter: Scrolling Mode (Toggle)"
+			],
+			[
+				"packa add",
+				"Package Control: Add Channel"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"package co in",
+				"Package Control: Install Package"
+			],
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"latex",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"package control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Tom/Dropbox/MATLAB",
+		"/Users/Tom/Dropbox/MATLAB/Classes",
+		"/Users/Tom/Dropbox/MATLAB/Classes/CoreClasses",
+		"/Users/Tom/Dropbox/MATLAB/Classes/ModelClasses",
+		"/Users/Tom/Dropbox/MATLAB/Misc functions"
+	],
+	"file_history":
+	[
+		"/Users/Tom/Dropbox/Thesis/4.Aim/Experimental_aim_and_MAGPIE.tex",
+		"/Users/Tom/Dropbox/Thesis/5.PhysicsBasis/Introduction_to_Physics.tex",
+		"/Users/Tom/Dropbox/Thesis/5.PhysicsBasis/ThermalEnergyDistributions.tex",
+		"/Users/Tom/Dropbox/Thesis/5.PhysicsBasis/Sheaths.tex",
+		"/Users/Tom/Dropbox/Thesis/5.PhysicsBasis/Gas_Supply_Pumping.tex",
+		"/Users/Tom/Dropbox/Thesis/6.ChemistryBasis/Introduction_to_Chemistry.tex",
+		"/Users/Tom/Dropbox/Thesis/6.ChemistryBasis/Utilisation_of_crosssections.tex",
+		"/Users/Tom/Dropbox/Thesis/6.ChemistryBasis/HardShellApproximation.tex",
+		"/Users/Tom/Dropbox/Thesis/3.Introduction/Physics_of_fusion.tex",
+		"/Users/Tom/Dropbox/Thesis/3.Introduction/The_ITER_tokamak.tex",
+		"/Users/Tom/Dropbox/Thesis/3.Introduction/Impurity_seeding_for_fusion_devices.tex",
+		"/Users/Tom/Dropbox/Thesis/3.Introduction/Ammonia_production_due_to_seeding.tex",
+		"/Users/Tom/Dropbox/Thesis/4.Aim/Introduction_to_aim.tex",
+		"/Users/Tom/Dropbox/Thesis/4.Aim/Literature_review.tex",
+		"/Users/Tom/Dropbox/Thesis/2.Foreword/Foreword.tex",
+		"/Users/Tom/Dropbox/MATLAB/Misc functions/Results_Plot_Rates.m",
+		"/Users/Tom/Dropbox/MATLAB/Misc functions/Results_Plot_Rates_E.m",
+		"/Users/Tom/Desktop/Work for Thesis/MASsoft csv/Functions/Plot_Export2.m",
+		"/Users/Tom/Dropbox/MATLAB/Determine_Te_Dependance.m",
+		"/Users/Tom/Dropbox/MATLAB/Misc functions/Plot_Export.m",
+		"/Users/Tom/Dropbox/MATLAB/Misc functions/Multiple_LineScan.m",
+		"/Users/Tom/Dropbox/MATLAB/Misc functions/add_Scan.m",
+		"/Users/Tom/Dropbox/MATLAB/Misc functions/Results_Plot_Export.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Solver/SolveBalanceEquations.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluation/Evaluation_SingleVariableScan.m",
+		"/Users/Tom/Dropbox/MATLAB/add_Scan.m",
+		"/Users/Tom/Dropbox/MATLAB/Multiple_LineScan.m",
+		"/Users/Tom/Dropbox/MATLAB/Results_Plot_Export.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Solver/Build_InitialConditions.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Results/Results_Plot_Rates.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Solver/SolveBalanceEquations2.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Results/Results_Plot_TeN_Error.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Results/Results_Plot_TeN_Convergence.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluation/Evaluation_CheckConvergence.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluation/Evaluation_MonitorMultiple.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Solver/Precalculate_SystemStruct.m",
+		"/Users/Tom/Dropbox/MATLAB/GlobalModel.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Solver/evaluate_PowerProduct.m",
+		"/Users/Tom/Dropbox/Thesis/7.The_global_model/Building_the_balance_equations.tex",
+		"/Users/Tom/Dropbox/Quantum Mechanics/Assignment 2/Assignment2.tex",
+		"/Users/Tom/Dropbox/Quantum Mechanics/Assignment 2/Assignment1.tex",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluation/Evaluation_PlotSolution_ErrStep.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluation/Evaluation_PlotSolution_ErrT.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluation/Evaluation_PlotSolution_YStep.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluation/Evaluation_PlotSolution_YT.m",
+		"/Users/Tom/Dropbox/MATLAB/Classes/ModelClasses/CROSSSECTION_C.m",
+		"/Users/Tom/Dropbox/MATLAB/Crosssections/CAR_I11.csv",
+		"/Users/Tom/Dropbox/MATLAB/Crosssections/CAR_I10.csv",
+		"/Users/Tom/Desktop/MASsoft csv/2 May/Background no gas supply.csv",
+		"/Users/Tom/Desktop/MASsoft csv/NH3_Data.sublime-project",
+		"/Users/Tom/Desktop/Data from NH3/MASsoft csv/11 May/background 10mTorr H2.csv",
+		"/Users/Tom/Dropbox/MATLAB/Crosssections/CAR_I8.csv",
+		"/Users/Tom/Dropbox/MATLAB/Crosssections/CAR_I9.csv",
+		"/Users/Tom/Dropbox/MATLAB/Crosssections/CAR_I12.csv",
+		"/Users/Tom/Dropbox/MATLAB/Crosssections/CAR_I7.csv",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Solver/build_RateCoeffVector.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Solver/CheckFinalStep.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Solver/Precalculate_ExperimentStruct.m",
+		"/Users/Tom/Dropbox/MATLAB/Core/GUI_control.m",
+		"/Users/Tom/Dropbox/MATLAB/Classes/ModelClasses/EXPERIMENT_C.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Results/Results_Plot_TeN.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Results/Results_Plot_N.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Results/Results_Plot_LineScan.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Results/Results_Plot.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Results/Results_ExportTable.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Results/Results_ExportStruct.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluate Tab/EvaluateTab_Evaluation.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluation/Evaluation_CheckConvergence2.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/MATLAB_Unitless.sublime-project",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver2/Precalculate_SystemStruct.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver2/SolveBalanceEquations2.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver2/CheckFinalStep.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/SolveBalanceEquations.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/evaluate_PowerLoss.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluation/Evaluation_CheckConvergence2.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Precalculate_SystemStruct.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Build_InitialConditions.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Precalculate_ExperimentStruct.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/build_RateCoeffVector.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/build_RateVector.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/build_IonWallLossVector.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/build_I2E_Matrices.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Classes/ModelClasses/EXPERIMENT_C.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/PrintSpeciesDatabase.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Open Screen (Initialisation and Mode)/CrosssectionBuilder.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Classes/ModelClasses/CROSSSECTION_C.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluate Tab/EvaluateTab_Species.m",
+		"/Users/Tom/Dropbox/Thesis/Main/Thesis.tex",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Modify_SurfaceParameters.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/SolveBalanceEquations_Diagnostic2.m",
+		"/Users/Tom/Dropbox/Work for Thesis/Scrivener/Thesis draft.tex/Thesis draft.tex",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/SolveBalanceEquations_Diagnostic.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Results/Results_Plot_LineScan.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Results/Results_ExportStruct.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Core/GUI_Make.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluate Tab/EvaluateTab_Reactor.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluate Tab/EvaluateTab_Reaction.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluation/Evaluation_MonitorMultiple.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluation/Evaluation_SingleVariableScan.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluation/Evaluation_CheckConvergence.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/ppvalfast.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/UI_interpreter.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/UI_interpreter_keepflag.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/UI_interpreter_unitless.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Species/Species_DB_AddElement.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Species/Species_DB_ReturnAttributes.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Update_Species_n.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableDA.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableDE1_7.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableDE8.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableDI.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableTE.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableVD.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableVE.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Update_Species_n2.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Classes/ModelClasses/REACTOR_C.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Reaction/Reaction_DB_AddElement.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Misc functions/build_TH58.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Misc functions/Add_vibrations2.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Misc functions/build_HJ61.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Misc functions/Add_vibrations.m",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/Export/Results:MAGPIE_HydrogenTesting.csv",
+		"/Users/Tom/Dropbox/MATLAB_Unitless/GlobalModel_Unitless.m",
+		"/Users/Tom/Dropbox/Notes/MATLAB Back-ups/MATLAB Unitless/Update_Species_n.m",
+		"/Users/Tom/Dropbox/MATLAB/GlobalModel_Unitless.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluate Tab/EvaluateTab_Reactor.m",
+		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Solver/build_RateVector.m",
+		"/Users/Tom/Dropbox/MATLAB/Classes/ModelClasses/REACTOR_C.m"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			"/Users/Tom/Dropbox/MATLAB",
+			"/Users/Tom/Dropbox/MATLAB_Unitless",
+			"/Users/Tom/Dropbox/MATLAB Back-ups/MATLAB Unitless",
+			"/Users/Tom/Dropbox/MATLAB\\ Back-ups/MATLAB\\ Unitless",
+			"/Users/Tom/Dropbox/MATLAB",
+			"<current file>",
+			"/Users/Tom/Dropbox/MATLAB/Classes,/Users/Tom/Dropbox/MATLAB/Crosssections,/Users/Tom/Dropbox/MATLAB/Databases,/Users/Tom/Dropbox/MATLAB/External methods for GUI_control",
+			"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control",
+			"/Users/Tom/Dropbox/MATLAB",
+			"/Users/Tom/Documents/MATLAB/GUI"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"^(.*)$",
+			"total",
+			";",
+			"quadrupole mass filter",
+			"compared to",
+			"which is",
+			"1000",
+			"10",
+			"0,5000",
+			"xlabel",
+			"\tShow",
+			"Show",
+			"%Show",
+			"p2(LineIndex).LineStyle ",
+			"p2(LineIndex).Marker",
+			"{LineIndex}",
+			"i-1",
+			"end",
+			"RateCoeffVector",
+			"Plot_Export",
+			"X",
+			"TempFigure",
+			"{i}",
+			"k",
+			"toflag",
+			"Results_Plot_TeN",
+			"Results_Struct",
+			"toflag",
+			"Results_Plot_LineScan",
+			"H2",
+			"InitialValuesStruct",
+			"_ConvergenceCheck",
+			"Solver",
+			"Y2",
+			"Y)",
+			").R",
+			".R",
+			"FinalRate",
+			"ErrorMonitor",
+			"TempFigure",
+			":",
+			",toflag",
+			"Controller.Results",
+			"RecalculateTe",
+			"RowIndex",
+			"Reaction",
+			"Reaction_I2E",
+			"MatrixDimensions",
+			"NewVector",
+			"Production",
+			" ",
+			"  ",
+			"TeList",
+			"TeStruct",
+			"NegativeIndices",
+			"NegSpecies",
+			"Display_dict(Controller.Experiment.GasSupply,Controller)",
+			"Display_dict",
+			");%",
+			";%",
+			"Controller.Solver.Reaction_I2E",
+			"Controller.Solver.Species_I2E",
+			"Controller.Solver.SystemStruct.Species_I2E",
+			"Species_I2E",
+			"Controller.TabGroup",
+			"Controller.Solver.Species_I2E",
+			"ExperimentStruct",
+			"PumpOutVector",
+			"Production",
+			"SolveBalanceEquations2",
+			"_Unitless",
+			"Controller.Reactor.Volume",
+			"SS.",
+			"ss",
+			"SS",
+			"ss",
+			"SS",
+			"ss",
+			"SS",
+			"ss",
+			"SS",
+			"ss",
+			"SS",
+			"= ",
+			"ReactantMatrix",
+			"SolveBalanceEquations",
+			"Species_I2E",
+			"Experiment",
+			"JS",
+			"Build_effective_area_for_ion_loss",
+			"RateCoef",
+			"Density",
+			"uBohm",
+			"Energy",
+			"RateVector",
+			"Rate",
+			"rate",
+			"Rate",
+			"determine_Te",
+			"Species_I2E",
+			"ElectronIndex",
+			"Reaction_I2E",
+			"build_I2E_Matrices",
+			"build_Boolean_vectors",
+			"ElectronCollisionVector",
+			"IonWallLossuBohm",
+			"uBohmDensity",
+			"uBohmVector",
+			"IonWallLossuBohm",
+			"uBohmVector",
+			"Density",
+			"RateVector",
+			"Species_I2E",
+			"NullSpeciesIndices",
+			"ExperimentStruct",
+			"ExperimentStruct.",
+			"SystemStruct",
+			"SystemStruct.",
+			"PumpInMatrix",
+			"PumpOutMatrix",
+			"SurfaceIndex",
+			"ElectronIndex",
+			"FS_vector",
+			"Q_vector",
+			"FS_vector",
+			"Q_vector",
+			"IonWallLossZeros",
+			"m_e_v"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"Controller.Reaction_I2E",
+			"Controller.Species_I2E",
+			"[T,Y,R,E,M,Converged]",
+			"save('/Users/Tom/Dropbox/MATLAB_Unitless/Databases/",
+			"",
+			"Controller.Global.ExperimentUpdated",
+			"Controller.Solver.ExperimentUpdated",
+			"[T,Y,R,M,Converged] = SolveBalanceEquations",
+			"Results_SelectTest",
+			"Results_SelectIndependentVar",
+			"Results_ExportTable",
+			"Results_ExportStruct",
+			"Results_SaveTestIndex",
+			"Results_Plot_HoldDependentVar",
+			"Results_Plot_LookupShowPlotElement",
+			"Results_Plot_LookupShowDependentVar",
+			"GUI_7_DependentVar",
+			"Controller.Global.ExperimentUpdated",
+			"Controller.Solver.EvaluationStartTime",
+			"Controller.Global.ConvergenceCheck_GasSupplyIndex",
+			"Controller.Global.ConvergenceCheck_StartingPressureIndex",
+			"Controller.Global.ConvergenceCheck_PowerAbsorbedIndex",
+			"obj.Global.ConvergenceCheck_GasSupplyIndex",
+			"obj.Global.ConvergenceCheck_StartingPressureIndex",
+			"obj.Global.ConvergenceCheck_PowerAbsorbedIndex",
+			"Evaluation_AxesChange_Callback",
+			"Evaluation_Monitor_Callback",
+			"Evaluation_Mode_Callback",
+			"Evaluation_SaveTestIndex",
+			"Init_CheckDB",
+			"Global_EvaluationMode",
+			"Species_UpdateMode",
+			"Species_UpdateListbox",
+			"Species_DB_ReturnAttributes",
+			"Species_ReturnAttributes",
+			"Species_DB_AddElement",
+			"evaluate_PowerProduct",
+			"Reaction_UpdateMode",
+			"Reaction_UpdateListbox",
+			"Reaction_DB_ReturnAttributes",
+			"Reaction_DB_RemoveElement",
+			"Reaction_DB_Query",
+			"Reaction_DB_AddElement",
+			"Global_UpdateMode",
+			"Init_ResetDB_MAIN",
+			"Global_CheckMode",
+			"Init_CheckDB_MAIN",
+			"GasSupply_UpdatePanel",
+			"GasSupply_UpdateDictionary",
+			"GasSupply_DeleteElement",
+			"Evaluation_UpdateMode",
+			"Evaluation_PlotSolution_",
+			"Evaluation_PlotSolution",
+			"Evaluation_MonitorMultiple",
+			"Evaluation_SelectTest",
+			"Evaluation_CheckConvergence",
+			"EvaluateTab_Species",
+			"EvaluateTab_Results",
+			"EvaluateTab_Reactor",
+			"EvaluateTab_Reaction",
+			"EvaluateTab_OpenScreen",
+			"EvaluateTab_Experiment",
+			"EvaluateTab_Evaluation",
+			"Evaluate_SelectTest",
+			"Update_Evaluate_SelectTest",
+			"Save_GUI_6_SelectTest",
+			"Update_GUI_6_SelectTest",
+			"obj.H.GUI_6_SelectTestPanel",
+			"obj.H.GUI_6_SelectTest",
+			"obj.H.GUI_6_SelectParameter",
+			"EvaluateModeSelection",
+			"UpdateInputformMode",
+			"CrosssectionBuilder_Make",
+			"CheckInputformMode",
+			"UpdateInputformMode",
+			"UpdateEvaluationMode",
+			"ConvergenceCheck",
+			"GUI_3",
+			"GUI_5",
+			"GUI_4",
+			"GUI_XX",
+			"Controller.H.GUI_XX",
+			"ConvergenceParameter",
+			"Controller.H.GUI_6_CvgPara",
+			"Controller.H.GUI_6_CvgParaString",
+			"Avenir Next",
+			"Verdana",
+			"Controller",
+			"GUI",
+			"Controller",
+			"save('Databases/DB_MAIN'",
+			"save('Core/DB_MAIN'",
+			"'WindowStyle','Normal'",
+			"'WindowStyle','Modal'"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Misc functions/NeutralPlotting.m",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 669.0
+	},
+	"pinned_build_system": "",
+	"project": "MATLAB.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"GUI_control.m"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/MATLAB/MATLAB.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
