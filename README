@@ -1,0 +1,16 @@
+To run the code with standard conditions (MAGPIE, 500W, 50-50sccm N2-H2, 10mTorr) add all subdirectories of the MATLAB folder to path. Then run
+>> GlobalModel
+
+This is a MATLAB script which will initialise all standard variables, and leave you on the evaluation tab. GUI is not shown - if you want to show it use
+>> Controller.Show('on')  % to make GUI visible
+>> Controller.Show('off') % to make GUI invisible
+
+Can then either run evaluation from GUI, or with 
+>> [T,Y,R,E,M,Converged] = ...
+   SolveBalanceEquations(Controller,RelTol,MaxStep,'Auto',ConvergenceTolerance);
+
+T is evaluation times, Y is evaluation densities with Te in last position, R is final rate, E is final error, M is used to show the error over time, Converged is a boolean of whether the run worked.
+
+N.b. to clean up, should run
+>> close all hidden
+after to close any hidden windows (i.e. the GUI if it isn't being shown)
