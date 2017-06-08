@@ -14,7 +14,7 @@ function ProceedAllowed = EvaluateTab_Experiment(Controller)
 		Experiment.PowerAbsorbed	= PowerAbsorbed;
 	end
 	if SP_OK
-		Experiment.StartingPressure	= StartingPressure*1e-3;
+		Experiment.StartingPressure	= StartingPressure*1e-3; %Convert to Torr
 	end
 	[ReturnMode,ProceedAllowed] = Global_CheckMode(Mode,Experiment);
 	Global_UpdateMode(Controller,ReturnMode);

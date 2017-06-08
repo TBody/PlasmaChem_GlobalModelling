@@ -1,5 +1,9 @@
 function ProceedAllowed = EvaluateTab_Evaluation(Controller)
 	%disp('EvaluateTab_Evaluation')
+	if isempty(Controller.Species_I2E)
+		%Prevents error with blank species I2E i.e. backtabbing before running evaluation
+		Controller.Species_I2E      = Controller.Global.SpeciesFoundList;
+	end
 	%if ~isempty(Controller.Results)
 		Controller.H.GUI_7_ShowPlotElement.String = ['Te';Controller.Species_I2E.list'];
 		ShowElement = zeros(1,length(Controller.H.GUI_7_ShowPlotElement.String));
