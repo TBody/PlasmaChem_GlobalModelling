@@ -24,7 +24,7 @@ end
 
 ScanLength = length(Scan_values); %For some reason, ScanLength is being lost from the workspace.
 %%Run Evaluation_CheckConvergence to find initial conditions for scan
-fprintf('Running Evaluation_CheckConvergence to find initial conditions for the scan\nWarning: this may take a very long time if scan is signifcantly different to last run.\n')
+fprintf('Running Evaluation_CheckConvergence to find initial conditions for the scan\nWarning: this may take a very long time if scan is significantly different to last run.\n')
 fprintf('If evaluation diverges or takes too long, consider using the GUI in ''Control'' mode and stepping towards initial condition.\n\n')
 %Make sure that you're looking at the start of the test
 Controller.Solver.PowerAbsorbedIndex = 1; Controller.Solver.StartingPressureIndex = 1; Controller.Solver.GasSupplyIndex = 1;

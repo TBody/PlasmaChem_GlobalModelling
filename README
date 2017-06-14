@@ -14,3 +14,11 @@ T is evaluation times, Y is evaluation densities with Te in last position, R is 
 N.b. to clean up, should run
 >> close all hidden
 after to close any hidden windows (i.e. the GUI if it isn't being shown)
+
+Updates are stored via git
+>> git log
+to see changes
+
+A single variable scan code is included as
+>> Run_single_variable_scan
+This will provide a basic interface in the terminal to set up a scan. Will save the density and Te results to file.
