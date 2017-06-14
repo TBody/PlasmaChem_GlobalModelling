@@ -41,6 +41,7 @@ R_DensityError = [];
 R_Te = [];
 R_TeError = [];
 R_Rate = [];
+R_Converged = [];
 
 tic
 for iter = 1:ScanLength
@@ -66,6 +67,7 @@ for iter = 1:ScanLength
 	R_Te = [R_Te,FinalTe];
 	R_TeError = [R_TeError,TeError];
 	R_Rate = [R_Rate,FinalRate];
+	R_Converged = [R_Converged,Converged];
 end
 clear iter
 
@@ -74,13 +76,14 @@ DensityError = R_DensityError;
 Te = R_Te;
 TeError = R_TeError;
 Rate = R_Rate;
+Converged = R_Converged;
 Species_I2E = Controller.Species_I2E.list;
 Reaction_I2E = Controller.Reaction_I2E.list;
 
 Save_filename = input('Save results of scan under what filename? ', 's');
-save(Save_filename,'Controller','Species_I2E','Reaction_I2E','Density','DensityError','Te','TeError','Rate','Scan_parameter','Scan_values','Power','Pressure','H2Supply','N2Supply')
+save(Save_filename,'Controller','Species_I2E','Reaction_I2E','Converged','Density','DensityError','Te','TeError','Rate','Scan_parameter','Scan_values','Power','Pressure','H2Supply','N2Supply')
 
-clear R_Density R_DensityError R_Te R_TeError R_Rate Species_I2E Reaction_I2E Save_filename
+clear R_Density R_DensityError R_Te R_TeError R_Rate Species_I2E Reaction_I2E Save_filename Converged
 
 fprintf('Scan completed.\n\n To run another scan; run the following\n')
 fprintf('clear Single_variable_setup_marker Scan_parameter Scan_values %%To force setup code to rerun\n')
