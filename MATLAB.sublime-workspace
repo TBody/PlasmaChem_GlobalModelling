@@ -4,8 +4,204 @@
 		"selected_items":
 		[
 			[
+				"spece",
+				"species\t(Power_scan_plot_neutrals.m)"
+			],
+			[
+				"Comp",
+				"Computational_line_width"
+			],
+			[
+				"prod",
+				"production_keys"
+			],
+			[
+				"pro",
+				"production_keys"
+			],
+			[
+				"max",
+				"max_Rate"
+			],
+			[
+				"Production",
+				"production_keys"
+			],
+			[
+				"Max",
+				"max_NH3"
+			],
+			[
+				"Find",
+				"Find_in_SI2E"
+			],
+			[
+				"Com",
+				"Computational_line_width\t(New_scans_plot_all.m)"
+			],
+			[
+				"Line",
+				"LineWidth\t(Process_new_graphs.m)"
+			],
+			[
+				"Spec",
+				"SpeciesKey"
+			],
+			[
 				"xl",
-				"xlabel\t(Results_Plot_TeN_Convergence.m)"
+				"xlabel_multiplier"
+			],
+			[
+				"x",
+				"xlabel_multiplier"
+			],
+			[
+				"X",
+				"xlabel"
+			],
+			[
+				"Col",
+				"ColumnWidthStyle"
+			],
+			[
+				"Fu",
+				"FullWidthStyle"
+			],
+			[
+				"Co",
+				"Column\t(New_scans_plot_surface.m)"
+			],
+			[
+				"Exp",
+				"ExportStyle"
+			],
+			[
+				"ne",
+				"neutral_handles"
+			],
+			[
+				"srt",
+				"sorted_expt"
+			],
+			[
+				"sort",
+				"sorted_expt"
+			],
+			[
+				"store",
+				"store_expt"
+			],
+			[
+				"sorte",
+				"sorted_expt"
+			],
+			[
+				"sorted",
+				"sorted_norm"
+			],
+			[
+				"expt",
+				"expt_sorting"
+			],
+			[
+				"exp",
+				"expt_sorting"
+			],
+			[
+				"min",
+				"min_difference"
+			],
+			[
+				"comp",
+				"comp_points"
+			],
+			[
+				"yla",
+				"ylabel"
+			],
+			[
+				"neutra",
+				"neutral_handles"
+			],
+			[
+				"iter",
+				"iter2"
+			],
+			[
+				"MATLA",
+				"MATLAB_colours"
+			],
+			[
+				"com",
+				"Computational_line_width"
+			],
+			[
+				"Lne",
+				"LineWidth"
+			],
+			[
+				"MA",
+				"MATLAB_colours"
+			],
+			[
+				"Ne",
+				"NeutralLegend"
+			],
+			[
+				"pd",
+				"pDkey"
+			],
+			[
+				"norm",
+				"normalisation"
+			],
+			[
+				"max_",
+				"Max_Expt"
+			],
+			[
+				"pD",
+				"pDkey"
+			],
+			[
+				"Scan",
+				"Scan_values"
+			],
+			[
+				"fpr",
+				"fprintf\t(Run_single_variable_scan.m)"
+			],
+			[
+				"spc",
+				"species_indices"
+			],
+			[
+				"species_inde",
+				"species_indices"
+			],
+			[
+				"speci",
+				"species_indices"
+			],
+			[
+				"species",
+				"species_index"
+			],
+			[
+				"plot",
+				"plot_species"
+			],
+			[
+				"SCan",
+				"Scan_parameter"
+			],
+			[
+				"Conv",
+				"Converged"
+			],
+			[
+				"R_",
+				"R_Converged"
 			],
 			[
 				"So",
@@ -20,16 +216,8 @@
 				"IndependentVariable"
 			],
 			[
-				"X",
-				"XLim"
-			],
-			[
 				"Mark",
 				"MarkerSize"
-			],
-			[
-				"Line",
-				"LineIndex"
 			],
 			[
 				"Len",
@@ -184,10 +372,6 @@
 				"Return_Display_dict"
 			],
 			[
-				"Conv",
-				"ConvergencePrecision"
-			],
-			[
 				"Converg",
 				"ConvergencePrecision"
 			],
@@ -218,10 +402,6 @@
 			[
 				"Conc",
 				"Conc_Rates"
-			],
-			[
-				"Exp",
-				"ExperimentStruct"
 			],
 			[
 				"uB",
@@ -334,199 +514,11 @@
 			[
 				"uBoh",
 				"uBohmDensity"
-			],
-			[
-				"Spec",
-				"SpeciesDB"
-			],
-			[
-				"Surf",
-				"SurfaceSiteDensity"
-			],
-			[
-				"Fina",
-				"FinalError"
-			],
-			[
-				"GasS",
-				"GasSupplyIterator"
-			],
-			[
-				"Scan",
-				"ScanLength"
-			],
-			[
-				"Null",
-				"NullReactionIndicies"
-			],
-			[
-				"Nul",
-				"NullSpeciesIndices"
-			],
-			[
-				"GasSu",
-				"GasSupplySpecies"
-			],
-			[
-				"Surface",
-				"SurfaceIndex"
-			],
-			[
-				"Power",
-				"PowerAbsorbed"
-			],
-			[
-				"eV",
-				"eV2J"
-			],
-			[
-				"Sur",
-				"SurfaceIndex"
-			],
-			[
-				"SpeciesI",
-				"Species_I2E"
-			],
-			[
-				"gene",
-				"generate_Surface_Species"
-			],
-			[
-				"is",
-				"isreal"
-			],
-			[
-				"ele",
-				"ElectronIndex"
-			],
-			[
-				"Pr",
-				"ProductionMatrix"
-			],
-			[
-				"num2",
-				"num2cell"
-			],
-			[
-				"Pro",
-				"ProductionMatrix"
-			],
-			[
-				"nDp",
-				"nDependentRates"
-			],
-			[
-				"nDependentRa",
-				"nDependentRates"
-			],
-			[
-				"n",
-				"nDependent"
-			],
-			[
-				"Token",
-				"TokenEvaluation"
-			],
-			[
-				"nDependent",
-				"nDependent_Rate"
-			],
-			[
-				"Eval",
-				"EvaluatedToken"
-			],
-			[
-				"Eva",
-				"EvaluatedToken"
-			],
-			[
-				"str",
-				"strfind"
-			],
-			[
-				"Re",
-				"ReturnString"
-			],
-			[
-				"R",
-				"Results"
-			],
-			[
-				"Conver",
-				"Converged"
-			],
-			[
-				"switc",
-				"switched"
-			],
-			[
-				"gamNH",
-				"gamma_NH_Hs_ER"
-			],
-			[
-				"ga",
-				"gamma_H_Hs_ER"
-			],
-			[
-				"gam",
-				"gamma_NH_ads"
-			],
-			[
-				"Ener",
-				"Energy"
-			],
-			[
-				"Ex",
-				"Experiment"
-			],
-			[
-				"SHow",
-				"ShowElement"
-			],
-			[
-				"Old",
-				"OldKeyLength"
-			],
-			[
-				"sh",
-				"x_shift"
-			],
-			[
-				"off",
-				"offset"
-			],
-			[
-				"x",
-				"x_shift"
-			],
-			[
-				"pp",
-				"ppvalfast"
-			],
-			[
-				"Produ",
-				"ProductionScaling"
-			],
-			[
-				"ReactionI",
-				"ReactionIndices"
-			],
-			[
-				"Raecta",
-				"ReactantSpeciesDict"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "Misc functions/NeutralPlotting.m",
-			"settings":
-			{
-				"buffer_size": 1344,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -673,14 +665,35 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Tom/Dropbox/MATLAB",
-		"/Users/Tom/Dropbox/MATLAB/Classes",
-		"/Users/Tom/Dropbox/MATLAB/Classes/CoreClasses",
-		"/Users/Tom/Dropbox/MATLAB/Classes/ModelClasses",
-		"/Users/Tom/Dropbox/MATLAB/Misc functions"
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/Experiment/500W_10mTorr_Composition_scan",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New scan",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots"
 	],
 	"file_history":
 	[
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_neutrals_nonorm.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_ions_nonorm.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_surface.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_fractions.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_ions.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_all.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_neutrals.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_ions.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_reactions.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_fractions.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_surface.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_neutrals.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_neutrals.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_fractions.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_surface.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_ions.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/README",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_neutrals_new_normalisation.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/Run_single_variable_scan.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New scan/Plotting_single_variable_scan.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/Misc functions/IonicPlotting.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/Experiment/Functions/Plot_ScanStruct_Ion.m",
 		"/Users/Tom/Dropbox/Thesis/4.Aim/Experimental_aim_and_MAGPIE.tex",
 		"/Users/Tom/Dropbox/Thesis/5.PhysicsBasis/Introduction_to_Physics.tex",
 		"/Users/Tom/Dropbox/Thesis/5.PhysicsBasis/ThermalEnergyDistributions.tex",
@@ -786,39 +799,18 @@
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/UI_interpreter_keepflag.m",
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/UI_interpreter_unitless.m",
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Species/Species_DB_AddElement.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Species/Species_DB_ReturnAttributes.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Update_Species_n.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableDA.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableDE1_7.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableDE8.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableDI.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableTE.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableVD.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Crosssections/H2 Cross section tables/XCBuildFromTableVE.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Update_Species_n2.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Classes/ModelClasses/REACTOR_C.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Reaction/Reaction_DB_AddElement.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Misc functions/build_TH58.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Misc functions/Add_vibrations2.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Misc functions/build_HJ61.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Misc functions/Add_vibrations.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Export/Results:MAGPIE_HydrogenTesting.csv",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/GlobalModel_Unitless.m",
-		"/Users/Tom/Dropbox/Notes/MATLAB Back-ups/MATLAB Unitless/Update_Species_n.m",
-		"/Users/Tom/Dropbox/MATLAB/GlobalModel_Unitless.m",
-		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Evaluate Tab/EvaluateTab_Reactor.m",
-		"/Users/Tom/Dropbox/MATLAB/External methods for GUI_control/Solver/build_RateVector.m",
-		"/Users/Tom/Dropbox/MATLAB/Classes/ModelClasses/REACTOR_C.m"
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Species/Species_DB_ReturnAttributes.m"
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
 		"height": 132.0,
 		"where_history":
 		[
+			"",
 			"/Users/Tom/Dropbox/MATLAB",
 			"/Users/Tom/Dropbox/MATLAB_Unitless",
 			"/Users/Tom/Dropbox/MATLAB Back-ups/MATLAB Unitless",
@@ -836,6 +828,122 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"reaction",
+			"FullWidthStyle",
+			"FullWidthStyle.Format = 'png';",
+			"reaction",
+			"Power_scan_reaction",
+			"reaction",
+			"figure",
+			"surface_figure",
+			"fractions_figure",
+			"ion_figure",
+			"neutral_figure",
+			"Composition",
+			"neutral",
+			"pDe",
+			"'H'",
+			"Column",
+			"fractions",
+			"fraction",
+			"New_scans",
+			"strep",
+			"production",
+			"(loss_sorting)",
+			"(production_sorting)",
+			"production",
+			"production_keys",
+			"max_Rate",
+			") ",
+			"max_NH3",
+			"CAR",
+			" ",
+			"CAR",
+			" ",
+			"Neutral_figure",
+			" clear(",
+			"if Close_after_save",
+			"close(",
+			"Style",
+			"ColumnWidthStyle",
+			"_figure",
+			"Reaction rate",
+			"Dominant",
+			"Dominant NH",
+			"surface",
+			"2",
+			"'LineStyle'",
+			"'LineStyle','--'",
+			"PlotFigure",
+			"Scan_values",
+			"X",
+			"co",
+			"Co",
+			"co",
+			"Co",
+			"co",
+			"Co",
+			"co",
+			"Co",
+			"co",
+			"Co",
+			"co",
+			"Co",
+			"co",
+			"Co",
+			"co",
+			",2",
+			"Density(:,",
+			"Species_I2E.index",
+			"surface",
+			"ions",
+			"semilogy(Scan_values",
+			"y",
+			"FullWidth",
+			"ExportStyle",
+			"pD",
+			"neutral",
+			"Neutral",
+			"'H'",
+			"('",
+			",s",
+			"neutrals",
+			"neutral",
+			"expt_Density_neutral",
+			"normalisation",
+			"neutral_handles",
+			"expt",
+			"neutral",
+			"3",
+			"comp_lines(iter)",
+			"MATLA",
+			"))",
+			")",
+			"...",
+			",",
+			";",
+			",",
+			"NeutralLegend",
+			"')",
+			"normal_store",
+			"M",
+			"NormTable_neutral",
+			"Normal_store",
+			",D",
+			",",
+			",:",
+			"pD",
+			"De",
+			"[D",
+			",D",
+			",",
+			"Plotting_n_dictionary",
+			"];",
+			"= ",
+			"')",
+			"find(strcmp(D, '5'))",
+			"Species",
+			":",
 			"^(.*)$",
 			"total",
 			";",
@@ -847,128 +955,12 @@
 			"0,5000",
 			"xlabel",
 			"\tShow",
-			"Show",
-			"%Show",
-			"p2(LineIndex).LineStyle ",
-			"p2(LineIndex).Marker",
-			"{LineIndex}",
-			"i-1",
-			"end",
-			"RateCoeffVector",
-			"Plot_Export",
-			"X",
-			"TempFigure",
-			"{i}",
-			"k",
-			"toflag",
-			"Results_Plot_TeN",
-			"Results_Struct",
-			"toflag",
-			"Results_Plot_LineScan",
-			"H2",
-			"InitialValuesStruct",
-			"_ConvergenceCheck",
-			"Solver",
-			"Y2",
-			"Y)",
-			").R",
-			".R",
-			"FinalRate",
-			"ErrorMonitor",
-			"TempFigure",
-			":",
-			",toflag",
-			"Controller.Results",
-			"RecalculateTe",
-			"RowIndex",
-			"Reaction",
-			"Reaction_I2E",
-			"MatrixDimensions",
-			"NewVector",
-			"Production",
-			" ",
-			"  ",
-			"TeList",
-			"TeStruct",
-			"NegativeIndices",
-			"NegSpecies",
-			"Display_dict(Controller.Experiment.GasSupply,Controller)",
-			"Display_dict",
-			");%",
-			";%",
-			"Controller.Solver.Reaction_I2E",
-			"Controller.Solver.Species_I2E",
-			"Controller.Solver.SystemStruct.Species_I2E",
-			"Species_I2E",
-			"Controller.TabGroup",
-			"Controller.Solver.Species_I2E",
-			"ExperimentStruct",
-			"PumpOutVector",
-			"Production",
-			"SolveBalanceEquations2",
-			"_Unitless",
-			"Controller.Reactor.Volume",
-			"SS.",
-			"ss",
-			"SS",
-			"ss",
-			"SS",
-			"ss",
-			"SS",
-			"ss",
-			"SS",
-			"ss",
-			"SS",
-			"= ",
-			"ReactantMatrix",
-			"SolveBalanceEquations",
-			"Species_I2E",
-			"Experiment",
-			"JS",
-			"Build_effective_area_for_ion_loss",
-			"RateCoef",
-			"Density",
-			"uBohm",
-			"Energy",
-			"RateVector",
-			"Rate",
-			"rate",
-			"Rate",
-			"determine_Te",
-			"Species_I2E",
-			"ElectronIndex",
-			"Reaction_I2E",
-			"build_I2E_Matrices",
-			"build_Boolean_vectors",
-			"ElectronCollisionVector",
-			"IonWallLossuBohm",
-			"uBohmDensity",
-			"uBohmVector",
-			"IonWallLossuBohm",
-			"uBohmVector",
-			"Density",
-			"RateVector",
-			"Species_I2E",
-			"NullSpeciesIndices",
-			"ExperimentStruct",
-			"ExperimentStruct.",
-			"SystemStruct",
-			"SystemStruct.",
-			"PumpInMatrix",
-			"PumpOutMatrix",
-			"SurfaceIndex",
-			"ElectronIndex",
-			"FS_vector",
-			"Q_vector",
-			"FS_vector",
-			"Q_vector",
-			"IonWallLossZeros",
-			"m_e_v"
+			"Show"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			"Controller.Reaction_I2E",
@@ -1070,44 +1062,13 @@
 		"show_context": false,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": false
+		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Misc functions/NeutralPlotting.m",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1344,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Matlab/Matlab.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

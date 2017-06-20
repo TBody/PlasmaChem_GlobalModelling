@@ -22,3 +22,9 @@ to see changes
 A single variable scan code is included as
 >> Run_single_variable_scan
 This will provide a basic interface in the terminal to set up a scan. Will save the density and Te results to file.
+
+Experimental analysis has been done on the scans contained within Experiment/500W_10mTorr_Composition_scan
+The scan .mat file is copied into the 'New scan' folder
+
+Plotting routine is
+>> New_scans_plot_all
