@@ -92,7 +92,7 @@ clear iter iter2
 % ax.XLim = [0 100];
 grid('on')
 
-title('Power scan at 10mTorr, 50-50sccm (ions)')
+%title('Power scan at 10mTorr, 50-50sccm (ions)')
 xlabel('Electron density (m^{-3})')
 ylabel('Particle density (m^{-3})')
 

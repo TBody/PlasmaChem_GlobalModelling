@@ -122,7 +122,7 @@ clear iter iter2
 ax.XLim = [0 100];
 grid('on')
 
-title('Composition scan at 500W, 10mTorr (ions)')
+%title('Composition scan at 500W, 10mTorr (ions)')
 xlabel('H_2 proportion of 100sccm supply (%)')
 ylabel('Particle density (m^{-3})')
 switch FigureWidth_control

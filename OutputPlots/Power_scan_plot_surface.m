@@ -87,7 +87,7 @@ clear iter
 % ax.XLim = [0 100];
 grid('on')
 
-title('Power scan at 10mTorr, 50-50sccm (surface species)')
+%title('Power scan at 10mTorr, 50-50sccm (surface species)')
 xlabel('Electron density (m^{-3})')
 ylabel('Particle density (m^{-3})')
 switch FigureWidth_control

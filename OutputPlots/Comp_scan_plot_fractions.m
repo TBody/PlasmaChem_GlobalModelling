@@ -58,7 +58,7 @@ ax = fractions_figure.Children;
 ax.XLim = [0 100];
 grid('on')
 
-title('Composition scan at 500W, 10mTorr (fractions species)')
+%title('Composition scan at 500W, 10mTorr (fractions species)')
 xlabel('H_2 proportion of 100sccm supply (%)')
 ylabel('Fraction (%, \times 10^{4} for ioniz.)')
 switch FigureWidth_control
