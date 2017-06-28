@@ -100,7 +100,7 @@ switch FigureWidth_control
 case 'Full'
     leg = legend(neutral_handles,neutral_legend,'Location','northeastoutside');
 case 'Column'
-    leg = legend(neutral_handles,neutral_legend,'Location','southeast');
+    leg = legend(neutral_handles,neutral_legend,'Location','best'); %Changed from 'Location','southeast');
 end
 leg.FontSize = 12;
 

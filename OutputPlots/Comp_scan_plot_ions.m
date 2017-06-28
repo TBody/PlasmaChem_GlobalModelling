@@ -129,7 +129,7 @@ switch FigureWidth_control
 case 'Full'
     leg = legend(ion_handles,ion_legend,'Location','northeastoutside'); %Use this for full-width figures
 case 'Column'
-    leg = legend(ion_handles,ion_legend,'Location','southeast'); %Use this for column figures
+    leg = legend(ion_handles,ion_legend,'Location','best'); %Changed from 'Location','southeast'); %Use this for column figures
 end
 leg.FontSize = 12;
 

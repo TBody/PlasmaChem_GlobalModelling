@@ -102,7 +102,7 @@ case 'Full'
 % Should always make full-width -- too complicated otherwise
     leg = legend('Location','northeastoutside');
 case 'Column'
-    leg = legend('Location','southeast');
+    leg = legend('Location','best'); %Changed from 'Location','southeast');
 end
 leg.FontSize = 12;
 
