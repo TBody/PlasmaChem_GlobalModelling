@@ -117,10 +117,10 @@ Power_scan_plot_surface
         clear('surface_figure_p');
     end
 Power_scan_plot_fractions
-    FullWidthStyle.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Power_scan_fraction.eps',FullWidthStyle);
-    FullWidthStyle.Format = 'png';
-    hgexport(gcf,'OutputPlots/Power_scan_fraction.png',FullWidthStyle);
+    ColumnWidthStyle.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Power_scan_fraction.eps',ColumnWidthStyle);
+    ColumnWidthStyle.Format = 'png';
+    hgexport(gcf,'OutputPlots/Power_scan_fraction.png',ColumnWidthStyle);
     savefig(gcf,'OutputPlots/Power_scan_fraction.fig')
     if Close_after_save
         close(fractions_figure_p);
