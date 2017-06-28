@@ -666,12 +666,11 @@
 	"expanded_folders":
 	[
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB",
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/Experiment/500W_10mTorr_Composition_scan",
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New scan",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots"
 	],
 	"file_history":
 	[
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_fractions.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_neutrals_nonorm.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_ions_nonorm.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_surface.m",
@@ -681,7 +680,6 @@
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_neutrals.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_ions.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_reactions.m",
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_fractions.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_surface.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_neutrals.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_neutrals.m",
