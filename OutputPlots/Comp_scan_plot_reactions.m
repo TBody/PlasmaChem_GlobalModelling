@@ -66,7 +66,7 @@ hold on;
 ax = reaction_figure.Children;
 ax.YScale = 'log';
 
-yyaxis left
+%yyaxis left
 
 % cplt = semilogy(Scan_values*xlabel_multiplier, Density(pD('NH3'),:));
 % cplt.Color = MATLAB_colours(6,:);
@@ -106,8 +106,8 @@ case 'Column'
 end
 leg.FontSize = 12;
 
-yyaxis right
-plot(Scan_values*xlabel_multiplier,Te,'--','LineWidth',Computational_line_width,'DisplayName','Te')
-ylabel('Electron temperature (eV)')
+%yyaxis right
+%plot(Scan_values*xlabel_multiplier,Te,'--','LineWidth',Computational_line_width,'DisplayName','Te')
+%ylabel('Electron temperature (eV)')
 
 clear('Density','DensityError','Find_in_RI2E','Find_in_SI2E','H2Supply','N2Supply','Power','Pressure','Rate','Reaction_I2E','Scan_parameter','Scan_values','Species_I2E','Te','TeError','ans','ax','cplt','iter','leg','loss_indices','loss_key','loss_keys','loss_sorting','max_NH3_index','max_rate','pD','production_indices','production_key','production_keys','production_sorting','rD','xlabel_multiplier')
