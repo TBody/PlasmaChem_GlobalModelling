@@ -37,7 +37,7 @@ pD('NH3+')   = Find_in_SI2E('NH3+'); pDe('NH3+') = 17;
 
 % Plot neutrals first
 neutral_figure = figure;
-yyaxis left
+%yyaxis left
 
 hold on;
 ax = neutral_figure.Children;
@@ -96,22 +96,22 @@ clear iter iter2
 ax.XLim = [0 100];
 grid('on')
 
-title('Composition scan at 500W, 10mTorr (neutrals)')
+%title('Composition scan at 500W, 10mTorr (neutrals)')
 xlabel('H_2 proportion of 100sccm supply (%)')
 ylabel('Particle density (m^{-3})')
 switch FigureWidth_control
 case 'Full'
     leg = legend(neutral_handles,neutral_legend,'Location','northeastoutside');
 case 'Column'
-    leg = legend(neutral_handles,neutral_legend,'Location','southeast');
+    leg = legend(neutral_handles,neutral_legend,'Location','best'); %Changed from 'Location','southeast');
 end
 leg.FontSize = 12;
 Norm_n_table = table(neutral_legend', normal_n_store','VariableNames',{'Species','Norm'})
 clear neutral_handles neutral_legend
 
-yyaxis right
-plot(Scan_values*xlabel_multiplier,Te,'--','LineWidth',Computational_line_width,'DisplayName','Te')
-ylabel('Electron temperature (eV)')
+%yyaxis right
+%plot(Scan_values*xlabel_multiplier,Te,'--','LineWidth',Computational_line_width,'DisplayName','Te')
+%ylabel('Electron temperature (eV)')
 
 clear pD pDkeys pDkey iter
 clear('Deconvolution_flag', 'Density', 'DensityError', 'Find_in_RI2E', 'Find_in_SI2E', 'H2Supply', 'H2_index', 'H_Dissoc', 'H_Ioniz', 'H_index', 'Ionic_H_indices', 'Ionic_N_indices', 'N2Supply', 'N2_index', 'N_Dissoc', 'N_Ioniz', 'N_index', 'Norm_n_table', 'Power', 'Pressure', 'Rate', 'Reaction_I2E', 'Scan_parameter', 'Scan_values', 'Species_I2E', 'Te', 'TeError', 'Total_H_indices', 'Total_Ioniz', 'Total_N_indices', 'ax', 'comp_points', 'e_index', 'expt_Density_electron', 'expt_Density_ion', 'expt_Density_ion_error', 'expt_Density_neutral', 'expt_Density_neutral_error', 'expt_H2Supply', 'expt_Mass', 'expt_N2Supply', 'expt_Power', 'expt_Pressure', 'expt_Scan_parameter', 'expt_Scan_values', 'expt_points', 'leg', 'normal_n_store', 'pDe', 'test_points', 'xlabel_multiplier')
