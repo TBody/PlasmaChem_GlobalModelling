@@ -7,9 +7,18 @@
 
 % Load composition scan savestates% Computational
 load 'Composition_scan_10mTorr_500W.mat'
+% Turn off an annoying warning
+warning('off','MATLAB:handle_graphics:exceptions:SceneNode')
 
-% To convert to percentage, etc -- scale all Scan_values-results by constant value
-xlabel_multiplier = 100;
+% To convert to percentage, etc -- scale all x-results by constant value
+xlabel_multiplier = 1;
+
+% Crop Scan_values to the same length as Density
+
+% Scan_values = Scan_values(1:size(Density,2));
+Scan_values = Scan_values(1:20);
+Rate = Rate(:,1:20);
+Te = Te(1:20);
 
 % What to plot? Store in a dictionary
 
@@ -65,6 +74,7 @@ hold on;
 
 ax = reaction_figure.Children;
 ax.YScale = 'log';
+ax.XScale = 'log';
 
 %yyaxis left
 
@@ -76,26 +86,48 @@ ax.YScale = 'log';
 
 for iter = 1:5
     production_key = production_keys{iter};
-    cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(production_key),:),'DisplayName',strrep(production_key,'_','\_'));
+
+    reactants = Controller.ReactionDB.Key(production_key).ReactantSpeciesDict.keys;
+    products = Controller.ReactionDB.Key(production_key).ProductSpeciesDict.keys;
+
+    process_string = reactants{1};
+    process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+    display_string = process_string;
+    for iter2 = 2:length(reactants)
+        process_string = reactants{iter2};
+        process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+        display_string = [display_string,'+',process_string];
+    end
+    display_string = [display_string,' \rightarrow '];
+    process_string = products{1};
+    process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+    display_string = [display_string,process_string];
+    for iter2 = 2:length(products)
+        process_string = products{iter2};
+        process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+        display_string = [display_string,'+',process_string];
+    end
+
+    cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(production_key),:),'DisplayName',display_string);
     cplt.Color = MATLAB_colours(iter,:);
     cplt.LineWidth = Computational_line_width;
     cplt.LineStyle = '-';
     cplt.Marker = 'none';
 end
-for iter = 1:5
-    loss_key = loss_keys{iter};
-    cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(loss_key),:),'DisplayName',strrep(loss_key,'_','\_'));
-    cplt.Color = MATLAB_colours(iter,:);
-    cplt.LineWidth = Computational_line_width;
-    cplt.LineStyle = '--';
-    cplt.Marker = 'none';
-end
+% for iter = 1:5
+%     loss_key = loss_keys{iter};
+%     cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(loss_key),:),'DisplayName',strrep(loss_key,'_','\_'));
+%     cplt.Color = MATLAB_colours(iter,:);
+%     cplt.LineWidth = Computational_line_width;
+%     cplt.LineStyle = '--';
+%     cplt.Marker = 'none';
+% end
 
-ax.XLim = [0 100];
+ax.XLim = [Scan_values(1) Scan_values(20)];
 grid('on')
 
 %title('Composition scan at 500W, 10mTorr')
-xlabel('H_2 proportion of 100sccm supply (%)')
+xlabel('Electron density (m^{-3})')
 ylabel('Reaction rate (m^{-3})s^{-1}')
 switch FigureWidth_control
 case 'Full'

@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"loss",
+				"loss_keys"
+			],
+			[
+				"dis",
+				"display_string\t(Comp_scan_plot_reactions_loss.m)"
+			],
+			[
+				"pro",
+				"process_string"
+			],
+			[
+				"products",
+				"products"
+			],
+			[
+				"Te",
+				"Te_eedf"
+			],
+			[
+				"key",
+				"key_format"
+			],
+			[
 				"spece",
 				"species\t(Power_scan_plot_neutrals.m)"
 			],
@@ -13,10 +37,6 @@
 			],
 			[
 				"prod",
-				"production_keys"
-			],
-			[
-				"pro",
 				"production_keys"
 			],
 			[
@@ -424,10 +444,6 @@
 				"Boolean_eC"
 			],
 			[
-				"Te",
-				"Te_row"
-			],
-			[
 				"e",
 				"e_index\t(Precalculate_SystemStruct.m)"
 			],
@@ -498,31 +514,63 @@
 			[
 				"GUICon",
 				"GUI_control:SolveBalanceEquations:SystemDiverged"
-			],
-			[
-				"Error",
-				"ErrorMonitor"
-			],
-			[
-				"Posit",
-				"PositiveBohmDensity"
-			],
-			[
-				"uBohm",
-				"uBohmDensity"
-			],
-			[
-				"uBoh",
-				"uBohmDensity"
 			]
 		]
 	},
 	"buffers":
 	[
 	],
-	"build_system": "",
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -665,23 +713,50 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB",
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots"
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots"
 	],
 	"file_history":
 	[
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_fractions.m",
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_neutrals_nonorm.m",
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_ions_nonorm.m",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/plot_NH.m",
+		"/Users/thomasbody/Desktop/Rates.csv",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_reactions_loss.m",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Plot_NH4+.m",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Plot_NH.m",
+		"/Users/thomasbody/Desktop/Rate for CAR_D7.csv",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_all.m",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_langmuir.m",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/plot_all.m",
+		"/Users/Tom/Dropbox/Masters_Thesis/LaTeX/Weekly chapters/7July17.tex",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_reactions_loss.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_reactions_loss.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_langmuir.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_reactions_loss_fTe.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_reactions_prod_fTe.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_all.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_reactions_prod.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_reactions_prod.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_reactions.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_surface.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_neutrals.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_fractions.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_fractions.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_ions.m",
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_all.m",
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_plot_neutrals.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_ions.m",
-		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_reactions.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_surface.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_neutrals.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Composition_scan_langmuir.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_ions_nonorm.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_neutrals_nonorm.m",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Composition_scan_fraction.eps",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Composition_scan_ions.eps",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Composition_scan_neutrals.eps",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Composition_scan_reaction.eps",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Composition_scan_surface.eps",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_fraction.eps",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_ions.eps",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_neutrals.eps",
+		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Power_scan_surface.eps",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_neutrals.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_fractions.m",
 		"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_surface.m",
@@ -770,34 +845,7 @@
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Precalculate_SystemStruct.m",
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Build_InitialConditions.m",
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Precalculate_ExperimentStruct.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/build_RateCoeffVector.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/build_RateVector.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/build_IonWallLossVector.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/build_I2E_Matrices.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Classes/ModelClasses/EXPERIMENT_C.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/PrintSpeciesDatabase.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Open Screen (Initialisation and Mode)/CrosssectionBuilder.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Classes/ModelClasses/CROSSSECTION_C.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluate Tab/EvaluateTab_Species.m",
-		"/Users/Tom/Dropbox/Thesis/Main/Thesis.tex",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Modify_SurfaceParameters.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/SolveBalanceEquations_Diagnostic2.m",
-		"/Users/Tom/Dropbox/Work for Thesis/Scrivener/Thesis draft.tex/Thesis draft.tex",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/SolveBalanceEquations_Diagnostic.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Results/Results_Plot_LineScan.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Results/Results_ExportStruct.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/Core/GUI_Make.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluate Tab/EvaluateTab_Reactor.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluate Tab/EvaluateTab_Reaction.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluation/Evaluation_MonitorMultiple.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluation/Evaluation_SingleVariableScan.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluation/Evaluation_CheckConvergence.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/ppvalfast.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/UI_interpreter.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/UI_interpreter_keepflag.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/UI_interpreter_unitless.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Species/Species_DB_AddElement.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Species/Species_DB_ReturnAttributes.m"
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/build_RateCoeffVector.m"
 	],
 	"find":
 	{
@@ -808,6 +856,9 @@
 		"height": 132.0,
 		"where_history":
 		[
+			"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/",
+			"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots/*.m",
+			"/Users/Tom/Dropbox/Undergraduate Research/MATLAB/OutputPlots",
 			"",
 			"/Users/Tom/Dropbox/MATLAB",
 			"/Users/Tom/Dropbox/MATLAB_Unitless",
@@ -826,6 +877,55 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			")",
+			"rD(",
+			",",
+			"loss_key",
+			",",
+			"CAR_D7",
+			"CAR_D6",
+			"if Close_after_save",
+			"FigureWidth_control",
+			"ColumnWidthStyle",
+			"FullWidthFigure",
+			"reaction_loss",
+			"reaction_prod",
+			"process_string = strrep(",
+			"process_string = strrep",
+			"key_format",
+			"Comp",
+			"Composition_scan",
+			"Comp",
+			"reaction",
+			"density",
+			"Density",
+			"loss_key",
+			"iter",
+			"display_string",
+			"reactants",
+			"pDkey",
+			"'CAR_D6'",
+			"fractions_figure_p",
+			"fraction (%)",
+			"neutrals",
+			"neutral",
+			"pDkey",
+			"test",
+			"ion_legend",
+			"ion_handles",
+			"OutputPlots/",
+			")'Location',",
+			")'Location','best');",
+			",'Location','southwest');",
+			"FullWidthStyle",
+			"',\n",
+			"FullWidthStyle",
+			"FigureWidth_control = 'Full'",
+			"'Location','southeast')",
+			"ylabel('Electron temperature (eV)')",
+			"plot(Scan_values*xlabel_multiplier,Te",
+			"yyaxis",
+			"title",
 			"reaction",
 			"FullWidthStyle",
 			"FullWidthStyle.Format = 'png';",
@@ -904,56 +1004,7 @@
 			"Neutral",
 			"'H'",
 			"('",
-			",s",
-			"neutrals",
-			"neutral",
-			"expt_Density_neutral",
-			"normalisation",
-			"neutral_handles",
-			"expt",
-			"neutral",
-			"3",
-			"comp_lines(iter)",
-			"MATLA",
-			"))",
-			")",
-			"...",
-			",",
-			";",
-			",",
-			"NeutralLegend",
-			"')",
-			"normal_store",
-			"M",
-			"NormTable_neutral",
-			"Normal_store",
-			",D",
-			",",
-			",:",
-			"pD",
-			"De",
-			"[D",
-			",D",
-			",",
-			"Plotting_n_dictionary",
-			"];",
-			"= ",
-			"')",
-			"find(strcmp(D, '5'))",
-			"Species",
-			":",
-			"^(.*)$",
-			"total",
-			";",
-			"quadrupole mass filter",
-			"compared to",
-			"which is",
-			"1000",
-			"10",
-			"0,5000",
-			"xlabel",
-			"\tShow",
-			"Show"
+			",s"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -961,6 +1012,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'Location','best'); %Changed from 'Location','southeast')",
+			"%ylabel('Electron temperature (eV)')",
+			"%plot(Scan_values*xlabel_multiplier,Te",
+			"%yyaxis",
+			"%title",
 			"Controller.Reaction_I2E",
 			"Controller.Species_I2E",
 			"[T,Y,R,E,M,Converged]",
@@ -1108,6 +1164,10 @@
 	"output.find_results":
 	{
 		"height": 669.0
+	},
+	"output.latextools":
+	{
+		"height": 124.0
 	},
 	"pinned_build_system": "",
 	"project": "MATLAB.sublime-project",

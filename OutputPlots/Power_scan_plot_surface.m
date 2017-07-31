@@ -65,7 +65,9 @@ pDkeys = {'F_s','H_s','N_s','NH_s','NH2_s','NH3'};
 for iter = 1:length(pDkeys)
     % Look into the plotting dictionaries
     pDkey = pDkeys{iter};
-    surface_legend = [surface_legend,pDkey];
+    key_format = strrep(pDkey,pDkey(regexp(pDkey,'\d')),['_',pDkey(regexp(pDkey,'\d'))]);
+    key_format = strrep(key_format,key_format(regexp(key_format,'\d_s')),[key_format(regexp(key_format,'\d')),'_,']);
+    surface_legend = [surface_legend,key_format];
     
     % Plot the computational result
     cplt = semilogy(Scan_values*xlabel_multiplier,Density(pD(pDkey),:));
@@ -84,7 +86,7 @@ end
 % Plot the electrons? very low - plot with ions
 clear iter
 
-% ax.XLim = [0 100];
+ax.XLim = [Scan_values(1) Scan_values(20)];
 grid('on')
 
 %title('Power scan at 10mTorr, 50-50sccm (surface species)')
@@ -94,7 +96,7 @@ switch FigureWidth_control
 case 'Full'
     leg = legend(surface_handles,surface_legend,'Location','northeastoutside');
 case 'Column'
-    leg = legend(surface_handles,surface_legend,'Location','southwest');
+    leg = legend(surface_handles,surface_legend,'Location','best'); %Changed from 'Location','southeast')
 end
 leg.FontSize = 12;
 

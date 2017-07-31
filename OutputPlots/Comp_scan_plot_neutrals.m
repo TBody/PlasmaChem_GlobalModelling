@@ -56,7 +56,8 @@ for iter = 1:length(pDkeys)
         % Skip ionic species
         continue
     else
-        neutral_legend = [neutral_legend,pDkey];
+        key_format = strrep(strrep(pDkey,pDkey(regexp(pDkey,'\d')),['_',pDkey(regexp(pDkey,'\d'))]),'+','^+');
+        neutral_legend = [neutral_legend,key_format];
     end
     iter2 = iter2 + 1;
 

@@ -9,7 +9,9 @@
 load 'Composition_scan_10mTorr_500W.mat'
 
 % To convert to percentage, etc -- scale all Scan_values-results by constant value
-xlabel_multiplier = 100;
+% xlabel_multiplier = 100;
+
+[sorted_Te,sorting] = sort(Te);
 
 % What to plot? Store in a dictionary
 
@@ -76,27 +78,50 @@ ax.YScale = 'log';
 
 for iter = 1:5
     production_key = production_keys{iter};
-    cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(production_key),:),'DisplayName',strrep(production_key,'_','\_'));
+
+    reactants = Controller.ReactionDB.Key(production_key).ReactantSpeciesDict.keys;
+    products = Controller.ReactionDB.Key(production_key).ProductSpeciesDict.keys;
+
+    process_string = reactants{1};
+    process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+    display_string = process_string;
+    for iter2 = 2:length(reactants)
+        process_string = reactants{iter2};
+        process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+        display_string = [display_string,'+',process_string];
+    end
+    display_string = [display_string,' \rightarrow '];
+    process_string = products{1};
+    process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+    display_string = [display_string,process_string];
+    for iter2 = 2:length(products)
+        process_string = products{iter2};
+        process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+        display_string = [display_string,'+',process_string];
+    end
+
+    cplt = semilogy(sorted_Te, Rate(rD(production_key),sorting),'DisplayName',display_string);
     cplt.Color = MATLAB_colours(iter,:);
     cplt.LineWidth = Computational_line_width;
     cplt.LineStyle = '-';
     cplt.Marker = 'none';
 end
-for iter = 1:5
-    loss_key = loss_keys{iter};
-    cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(loss_key),:),'DisplayName',strrep(loss_key,'_','\_'));
-    cplt.Color = MATLAB_colours(iter,:);
-    cplt.LineWidth = Computational_line_width;
-    cplt.LineStyle = '--';
-    cplt.Marker = 'none';
-end
+% for iter = 1:5
+%     loss_key = loss_keys{iter};
+%     cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(loss_key),:),'DisplayName',strrep(loss_key,'_','\_'));
+%     cplt.Color = MATLAB_colours(iter,:);
+%     cplt.LineWidth = Computational_line_width;
+%     cplt.LineStyle = '--';
+%     cplt.Marker = 'none';
+% end
 
-ax.XLim = [0 100];
+ax.XLim = [min(Te) max(Te)];
+ax.YLim = [10^12 10^22];
 grid('on')
 
 %title('Composition scan at 500W, 10mTorr')
-xlabel('H_2 proportion of 100sccm supply (%)')
-ylabel('Reaction rate (m^{-3})s^{-1}')
+xlabel('Electron temperature (eV)')
+ylabel('Reaction rate (m^{-3}s^{-1})')
 switch FigureWidth_control
 case 'Full'
 % Should always make full-width -- too complicated otherwise

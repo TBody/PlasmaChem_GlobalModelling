@@ -76,20 +76,42 @@ ax.YScale = 'log';
 
 for iter = 1:5
     production_key = production_keys{iter};
-    cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(production_key),:),'DisplayName',strrep(production_key,'_','\_'));
+
+    reactants = Controller.ReactionDB.Key(production_key).ReactantSpeciesDict.keys;
+    products = Controller.ReactionDB.Key(production_key).ProductSpeciesDict.keys;
+
+    process_string = reactants{1};
+    process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+    display_string = process_string;
+    for iter2 = 2:length(reactants)
+        process_string = reactants{iter2};
+        process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+        display_string = [display_string,'+',process_string];
+    end
+    display_string = [display_string,' \rightarrow '];
+    process_string = products{1};
+    process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+    display_string = [display_string,process_string];
+    for iter2 = 2:length(products)
+        process_string = products{iter2};
+        process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+        display_string = [display_string,'+',process_string];
+    end
+
+    cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(production_key),:),'DisplayName',display_string);
     cplt.Color = MATLAB_colours(iter,:);
     cplt.LineWidth = Computational_line_width;
     cplt.LineStyle = '-';
     cplt.Marker = 'none';
 end
-for iter = 1:5
-    loss_key = loss_keys{iter};
-    cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(loss_key),:),'DisplayName',strrep(loss_key,'_','\_'));
-    cplt.Color = MATLAB_colours(iter,:);
-    cplt.LineWidth = Computational_line_width;
-    cplt.LineStyle = '--';
-    cplt.Marker = 'none';
-end
+% for iter = 1:5
+%     loss_key = loss_keys{iter};
+%     cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(loss_key),:),'DisplayName',strrep(loss_key,'_','\_'));
+%     cplt.Color = MATLAB_colours(iter,:);
+%     cplt.LineWidth = Computational_line_width;
+%     cplt.LineStyle = '--';
+%     cplt.Marker = 'none';
+% end
 
 ax.XLim = [0 100];
 grid('on')

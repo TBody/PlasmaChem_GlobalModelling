@@ -31,6 +31,7 @@ pD('NH3')    = Find_in_SI2E('NH3');  pDe('NH3') = 17;
 
 pD('H+')     = Find_in_SI2E('H+');   pDe('H+')   =  1;
 pD('H2+')    = Find_in_SI2E('H2+');  pDe('H2+')  =  2;
+pD('H2+')    = Find_in_SI2E('H3+');  pDe('H3+')  =  3;
 pD('N+')     = Find_in_SI2E('N+');   pDe('N+')   = 14;
 pD('N2+')    = Find_in_SI2E('N2+');  pDe('N2+')  = 28;
 pD('NH3+')   = Find_in_SI2E('NH3+'); pDe('NH3+') = 17;
@@ -54,7 +55,8 @@ for iter = 1:length(pDkeys)
     pDkey = pDkeys{iter};
     if find(pDkey=='+'|pDkey=='-')
         % Consider only ionic species
-        ion_legend = [ion_legend,pDkey];
+        key_format = strrep(strrep(pDkey,pDkey(regexp(pDkey,'\d')),['_',pDkey(regexp(pDkey,'\d'))]),'+','^+');
+        ion_legend = [ion_legend,key_format];
     else
         continue
     end
@@ -90,31 +92,31 @@ for iter = 1:length(pDkeys)
     clear normalisation ebar cplt
 end
 % Plot the electrons (very low - plot with ions)
-    iter2 = iter2 + 1;
-    ion_legend = [ion_legend,'e'];
+    % iter2 = iter2 + 1;
+    % ion_legend = [ion_legend,'e'];
     
-    cplt = semilogy(Scan_values*xlabel_multiplier,Density(Find_in_SI2E('e'),:));
-    cplt.Color = MATLAB_colours(iter2,:);
-    cplt.LineWidth = 3;
-    cplt.LineStyle = '-';
-    cplt.Marker = 'none';
-    ion_handles = [ion_handles, cplt];
+    % cplt = semilogy(Scan_values*xlabel_multiplier,Density(Find_in_SI2E('e'),:));
+    % cplt.Color = MATLAB_colours(iter2,:);
+    % cplt.LineWidth = 3;
+    % cplt.LineStyle = '-';
+    % cplt.Marker = 'none';
+    % ion_handles = [ion_handles, cplt];
 
-    max_model = max(Density(Find_in_SI2E('e'),:));
-    max_expt = max(expt_Density_electron);
-    % normalisation = max_model/max_expt;
-    normalisation = 1;
-    clear max_model max_expt
-    normal_n_store = [normal_n_store, normalisation];
-    ebar = plot(expt_Scan_values*xlabel_multiplier, expt_Density_electron * normalisation, 'x');
-    % ebar = errorbar(expt_Scan_values,...
-    %          expt_Density_ion(pDe(pDkey),:) * normalisation,...
-    %          expt_Density_ion_error(pDe(pDkey),:) * normalisation,...
-    %          'x');
+    % max_model = max(Density(Find_in_SI2E('e'),:));
+    % max_expt = max(expt_Density_electron);
+    % % normalisation = max_model/max_expt;
+    % normalisation = 1;
+    % clear max_model max_expt
+    % normal_n_store = [normal_n_store, normalisation];
+    % ebar = plot(expt_Scan_values*xlabel_multiplier, expt_Density_electron * normalisation, 'x');
+    % % ebar = errorbar(expt_Scan_values,...
+    % %          expt_Density_ion(pDe(pDkey),:) * normalisation,...
+    % %          expt_Density_ion_error(pDe(pDkey),:) * normalisation,...
+    % %          'x');
 
-    ebar.Color = MATLAB_colours(iter2,:);
-    ebar.MarkerSize = Experimental_marker_size;
-    ebar.LineWidth = Experimental_line_width;
+    % ebar.Color = MATLAB_colours(iter2,:);
+    % ebar.MarkerSize = Experimental_marker_size;
+    % ebar.LineWidth = Experimental_line_width;
 clear normalisation ebar cplt
 
 clear iter iter2

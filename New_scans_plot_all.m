@@ -19,120 +19,153 @@ MATLAB_colours = [         0    0.4470    0.7410; ...
     0.3010    0.7450    0.9330; ...
     0.6350    0.0780    0.1840];
 
-FullWidthStyle = hgexport('readstyle','FullWidthFigure');
-ColumnWidthStyle = hgexport('readstyle','ColumnWidthFigure');
+% FullWidthStyle = hgexport('readstyle','FullWidthFigure');
+CW = hgexport('readstyle','ColumnWidth');
 % Save for replicability
-save('OutputPlots/ExportStyles','FullWidthStyle','ColumnWidthStyle');
+save('OutputPlots/Outputs/ExportStyles_updated','CW');
 
 % Composition scans
 FigureWidth_control = 'Column';
-% FigureWidth_control = 'Full';
+Comp_scan_langmuir
+CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_langmuir.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_langmuir.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Composition_scan_langmuir.fig')
+    close(langmuir_figure);
+    clear('langmuir_figure');
+
 Comp_scan_plot_neutrals
-    ColumnWidthStyle.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Composition_scan_neutrals.eps',ColumnWidthStyle);
-    ColumnWidthStyle.Format = 'png';
-    hgexport(gcf,'OutputPlots/Composition_scan_neutrals.png',ColumnWidthStyle);
-    savefig(gcf,'OutputPlots/Composition_scan_neutrals.fig')
-    if Close_after_save
-        close(neutral_figure);
-        clear('neutral_figure');
-    end
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_neutrals.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_neutrals.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Composition_scan_neutrals.fig')
+    close(neutral_figure);
+    clear('neutral_figure');
 
 Comp_scan_plot_ions
-    ColumnWidthStyle.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Composition_scan_ions.eps',ColumnWidthStyle);
-    ColumnWidthStyle.Format = 'png';
-    hgexport(gcf,'OutputPlots/Composition_scan_ions.png',ColumnWidthStyle);
-    savefig(gcf,'OutputPlots/Composition_scan_ions.fig')
-    if Close_after_save
-        close(ion_figure);
-        clear('ion_figure');
-    end
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_ions.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_ions.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Composition_scan_ions.fig')
+    close(ion_figure);
+    clear('ion_figure');
 
-FigureWidth_control = 'Column';
 Comp_scan_plot_surface
-    ColumnWidthStyle.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Composition_scan_surface.eps',ColumnWidthStyle);
-    ColumnWidthStyle.Format = 'png';
-    hgexport(gcf,'OutputPlots/Composition_scan_surface.png',ColumnWidthStyle);
-    savefig(gcf,'OutputPlots/Composition_scan_surface.fig')
-    if Close_after_save
-        close(surface_figure);
-        clear('surface_figure');
-    end
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_surface.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_surface.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Composition_scan_surface.fig')
+    close(surface_figure);
+    clear('surface_figure');
 
 Comp_scan_plot_fractions
-    ColumnWidthStyle.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Composition_scan_fraction.eps',ColumnWidthStyle);
-    ColumnWidthStyle.Format = 'png';
-    hgexport(gcf,'OutputPlots/Composition_scan_fraction.png',ColumnWidthStyle);
-    savefig(gcf,'OutputPlots/Composition_scan_fraction.fig')
-    if Close_after_save
-        close(fractions_figure);
-        clear('fractions_figure');
-    end
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_fraction.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_fraction.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Composition_scan_fraction.fig')
+    close(fractions_figure);
+    clear('fractions_figure');
 
-FigureWidth_control = 'Column';
-% FigureWidth_control = 'Full';
-Comp_scan_plot_reactions
-    ColumnWidthStyle.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Composition_scan_reaction.eps',ColumnWidthStyle);
-    ColumnWidthStyle.Format = 'png';
-    hgexport(gcf,'OutputPlots/Composition_scan_reaction.png',ColumnWidthStyle);
-    savefig(gcf,'OutputPlots/Composition_scan_reaction.fig')
-    if Close_after_save
-        close(reaction_figure);
-        clear('reaction_figure');
-    end
+Comp_scan_plot_reactions_prod
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_reaction_prod.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_reaction_prod.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Composition_scan_reaction_prod.fig')
+    close(reaction_figure);
+    clear('reaction_figure');
+
+Comp_scan_plot_reactions_loss
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_reaction_loss.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_reaction_loss.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Composition_scan_reaction_loss.fig')
+    close(reaction_figure);
+    clear('reaction_figure');
+
+Comp_scan_plot_reactions_prod_fTe
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_reaction_prod_fTe.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_reaction_prod_fTe.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Composition_scan_reaction_prod_fTe.fig')
+    close(reaction_figure);
+    clear('reaction_figure');
+
+Comp_scan_plot_reactions_loss_fTe
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_reaction_loss_fTe.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Composition_scan_reaction_loss_fTe.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Composition_scan_reaction_loss_fTe.fig')
+    close(reaction_figure);
+    clear('reaction_figure');
 
 % Power scans
-FigureWidth_control = 'Column';
-% FigureWidth_control = 'Full';
 Power_scan_plot_neutrals
-    ColumnWidthStyle.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Power_scan_neutrals.eps',ColumnWidthStyle);
-    ColumnWidthStyle.Format = 'png';
-    hgexport(gcf,'OutputPlots/Power_scan_neutrals.png',ColumnWidthStyle);
-    savefig(gcf,'OutputPlots/Power_scan_neutrals.fig')
-    if Close_after_save
-        close(neutral_figure_p);
-        clear('neutral_figure_p');
-    end
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_neutrals.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_neutrals.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Power_scan_neutrals.fig')
+    close(neutral_figure_p);
+    clear('neutral_figure_p');
+
 Power_scan_plot_ions
-    ColumnWidthStyle.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Power_scan_ions.eps',ColumnWidthStyle);
-    ColumnWidthStyle.Format = 'png';
-    hgexport(gcf,'OutputPlots/Power_scan_ions.png',ColumnWidthStyle);
-    savefig(gcf,'OutputPlots/Power_scan_ions.fig')
-    if Close_after_save
-        close(ion_figure_p);
-        clear('ion_figure_p');
-    end
-FigureWidth_control = 'Column';
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_ions.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_ions.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Power_scan_ions.fig')
+    close(ion_figure_p);
+    clear('ion_figure_p');
+
 Power_scan_plot_surface
-    ColumnWidthStyle.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Power_scan_surface.eps',ColumnWidthStyle);
-    ColumnWidthStyle.Format = 'png';
-    hgexport(gcf,'OutputPlots/Power_scan_surface.png',ColumnWidthStyle);
-    savefig(gcf,'OutputPlots/Power_scan_surface.fig')
-    if Close_after_save
-        close(surface_figure_p);
-        clear('surface_figure_p');
-    end
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_surface.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_surface.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Power_scan_surface.fig')
+    close(surface_figure_p);
+    clear('surface_figure_p');
+
 Power_scan_plot_fractions
-    ColumnWidthStyle.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Power_scan_fraction.eps',ColumnWidthStyle);
-    ColumnWidthStyle.Format = 'png';
-    hgexport(gcf,'OutputPlots/Power_scan_fraction.png',ColumnWidthStyle);
-    savefig(gcf,'OutputPlots/Power_scan_fraction.fig')
-    if Close_after_save
-        close(fractions_figure_p);
-        clear('fractions_figure_p');
-    end
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_fraction.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_fraction.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Power_scan_fraction.fig')
+    close(fractions_figure_p);
+    clear('fractions_figure_p');
+
+Power_scan_plot_reactions_prod
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_prod.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_prod.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Power_scan_reaction_prod.fig')
+    close(reaction_figure);
+    clear('reaction_figure');
+
+Power_scan_plot_reactions_loss
+    CW.Format = 'eps';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_loss.eps',CW);
+    CW.Format = 'png';
+    hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_loss.png',CW);
+    savefig(gcf,'OutputPlots/Outputs/Power_scan_reaction_loss.fig')
+    close(reaction_figure);
+    clear('reaction_figure');
+
 
 close hidden
 clear('Controller')
 
 disp('Done')
 
-clear('Close_after_save', 'ColumnWidthStyle', 'Computational_line_width', 'Experimental_line_width', 'Experimental_marker_size', 'FigureWidth_control', 'FullWidthStyle', 'MATLAB_colours')
+% clear('Close_after_save', 'CW', 'Computational_line_width', 'Experimental_line_width', 'Experimental_marker_size', 'FigureWidth_control', 'FullWidthStyle', 'MATLAB_colours')

@@ -72,7 +72,8 @@ for iter = 1:length(pDkeys)
         % Skip ionic species
         continue
     else
-        neutral_legend = [neutral_legend,pDkey];
+        key_format = strrep(strrep(pDkey,pDkey(regexp(pDkey,'\d')),['_',pDkey(regexp(pDkey,'\d'))]),'+','^+');
+        neutral_legend = [neutral_legend,key_format];
     end
     iter2 = iter2 + 1;
 
@@ -89,7 +90,7 @@ end
 % Plot the electrons? very low - plot with ions
 clear iter iter2
 
-% ax.XLim = [0 100];
+ax.XLim = [Scan_values(1) Scan_values(20)];
 grid('on')
 
 %title('Power scan at 10mTorr, 50-50sccm (neutrals)')

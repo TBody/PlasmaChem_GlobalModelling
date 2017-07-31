@@ -1,0 +1,166 @@
+% Comp_scan_plot_reactions
+% Only needs a small modification to plot ions, but cleaner if kept as two files
+% Produce the updated plots (16/6/17)
+% Including updated experimental results
+% Needs to have 'New scan' folder on path
+% See main README to set-up this folder
+
+% Load composition scan savestates% Computational
+load 'Composition_scan_10mTorr_500W.mat'
+
+% To convert to percentage, etc -- scale all Scan_values-results by constant value
+xlabel_multiplier = 100;
+
+% What to plot? Store in a dictionary
+
+Find_in_SI2E = @(Species_Key) find(strcmp(Species_I2E, Species_Key));
+Find_in_RI2E = @(Reaction_Key) find(strcmp(Reaction_I2E, Reaction_Key));
+
+% Plotting dictionary
+% First element is SI2E index, second is mass index (for expt)
+pD = containers.Map();
+rD = containers.Map();
+% Prod =
+rD('CAR_T8') = Find_in_RI2E('CAR_T8');
+rD('CAR_T17') = Find_in_RI2E('CAR_T17');
+rD('CAR_T21') = Find_in_RI2E('CAR_T21');
+rD('CAR_T22') = Find_in_RI2E('CAR_T22');
+rD('CAR_T25') = Find_in_RI2E('CAR_T25');
+
+% Loss =
+rD('CAR_N10')  = Find_in_RI2E('CAR_N10');
+rD('CAR_N11')  = Find_in_RI2E('CAR_N11');
+
+pD('NH3') = Find_in_SI2E('NH3');
+
+% Find where NH3 production is highest
+max_NH3_index = find(Density(pD('NH3'),:)==max(Density(pD('NH3'),:)));
+max_rate = Rate(:,max_NH3_index);
+
+production_keys = {'CAR_T8','CAR_T17','CAR_T21','CAR_T22','CAR_T25'};
+production_indices = [rD('CAR_T8'),rD('CAR_T17'),rD('CAR_T21'),rD('CAR_T22'),rD('CAR_T25')];
+[~,production_sorting] = sort(max_rate(production_indices),'descend');
+production_keys = production_keys(production_sorting);
+production_indices = production_indices(production_sorting);
+
+loss_keys = {'CAR_N10','CAR_N11'};
+loss_indices = [rD('CAR_N10'),rD('CAR_N11')];
+[~,loss_sorting] = sort(max_rate(loss_indices),'descend');
+loss_keys = loss_keys(loss_sorting);
+loss_indices = loss_indices(loss_sorting);
+
+table(production_keys', max_rate(production_indices),'VariableNames',{'Reaction','Rate'})
+table(loss_keys', max_rate(loss_indices),'VariableNames',{'Reaction','Rate'})
+
+reaction_figure = figure;
+
+hold on;
+
+ax = reaction_figure.Children;
+ax.YScale = 'log';
+
+for iter = 1:length(production_keys)
+    production_key = production_keys{iter};
+
+    reactants = Controller.ReactionDB.Key(production_key).ReactantSpeciesDict.keys;
+    products = Controller.ReactionDB.Key(production_key).ProductSpeciesDict.keys;
+
+    process_string = reactants{1};
+    process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+    display_string = process_string;
+    for iter2 = 2:length(reactants)
+        process_string = reactants{iter2};
+        process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+        display_string = [display_string,'+',process_string];
+    end
+    display_string = [display_string,' \rightarrow '];
+    process_string = products{1};
+    process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+    display_string = [display_string,process_string];
+    for iter2 = 2:length(products)
+        process_string = products{iter2};
+        process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+        display_string = [display_string,'+',process_string];
+    end
+    
+    cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(production_key),:),'DisplayName',display_string);
+    cplt.Color = MATLAB_colours(iter,:);
+    cplt.LineWidth = Computational_line_width;
+    cplt.LineStyle = '-';
+    cplt.Marker = 'none';
+
+    clear reactants products
+end
+
+ax.XLim = [0 100];
+grid('on')
+
+%title('Composition scan at 500W, 10mTorr')
+xlabel('H_2 proportion of 100sccm supply (%)')
+ylabel('Reaction rate (m^{-3})s^{-1}')
+switch FigureWidth_control
+case 'Full'
+% Should always make full-width -- too complicated otherwise
+    leg = legend('Location','northeastoutside');
+case 'Column'
+    leg = legend('Location','best'); %Changed from 'Location','southeast');
+end
+leg.FontSize = 12;
+
+reaction_figure = figure;
+
+hold on;
+
+ax = reaction_figure.Children;
+ax.YScale = 'log';
+
+for iter = 1:length(loss_keys)
+    loss_key = loss_keys{iter};
+
+    reactants = Controller.ReactionDB.Key(loss_key).ReactantSpeciesDict.keys;
+    products = Controller.ReactionDB.Key(loss_key).ProductSpeciesDict.keys;
+
+    process_string = reactants{1};
+    process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+    display_string = process_string;
+    for iter2 = 2:length(reactants)
+        process_string = reactants{iter2};
+        process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+        display_string = [display_string,'+',process_string];
+    end
+    display_string = [display_string,' \rightarrow '];
+    process_string = products{1};
+    process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+    display_string = [display_string,process_string];
+    for iter2 = 2:length(products)
+        process_string = products{iter2};
+        process_string = strrep(strrep(process_string,process_string(regexp(process_string,'\d')),['_',process_string(regexp(process_string,'\d'))]),'+','^+'); process_string = strrep(process_string,process_string(regexp(process_string,'\d_s')),[process_string(regexp(process_string,'\d')),'_,']);
+        display_string = [display_string,'+',process_string];
+    end
+    
+    cplt = semilogy(Scan_values*xlabel_multiplier, Rate(rD(loss_key),:),'DisplayName',display_string);
+    cplt.Color = MATLAB_colours(iter,:);
+    cplt.LineWidth = Computational_line_width;
+    cplt.LineStyle = '-';
+    cplt.Marker = 'none';
+
+    clear reactants products
+end
+
+ax.XLim = [0 100];
+grid('on')
+
+%title('Composition scan at 500W, 10mTorr')
+xlabel('H_2 proportion of 100sccm supply (%)')
+ylabel('Reaction rate (m^{-3})s^{-1}')
+switch FigureWidth_control
+case 'Full'
+% Should always make full-width -- too complicated otherwise
+    leg = legend('Location','northeastoutside');
+case 'Column'
+    leg = legend('Location','best'); %Changed from 'Location','southeast');
+end
+leg.FontSize = 12;
+
+
+% clear('Density','DensityError','Find_in_RI2E','Find_in_SI2E','H2Supply','N2Supply','Power','Pressure','Rate','Reaction_I2E','Scan_parameter','Scan_values','Species_I2E','Te','TeError','ans','ax','cplt','iter','leg','loss_indices','loss_key','loss_keys','loss_sorting','max_NH3_index','max_rate','pD','production_indices','production_key','production_keys','production_sorting','rD','xlabel_multiplier')
