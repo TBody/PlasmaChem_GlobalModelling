@@ -107,60 +107,60 @@ Comp_scan_plot_reactions_loss_fTe
     close(reaction_figure);
     clear('reaction_figure');
 
-% Power scans
-Power_scan_plot_neutrals
-    CW.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_neutrals.eps',CW);
-    CW.Format = 'png';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_neutrals.png',CW);
-    savefig(gcf,'OutputPlots/Outputs/Power_scan_neutrals.fig')
-    close(neutral_figure_p);
-    clear('neutral_figure_p');
+% % Power scans
+% Power_scan_plot_neutrals
+%     CW.Format = 'eps';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_neutrals.eps',CW);
+%     CW.Format = 'png';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_neutrals.png',CW);
+%     savefig(gcf,'OutputPlots/Outputs/Power_scan_neutrals.fig')
+%     close(neutral_figure_p);
+%     clear('neutral_figure_p');
 
-Power_scan_plot_ions
-    CW.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_ions.eps',CW);
-    CW.Format = 'png';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_ions.png',CW);
-    savefig(gcf,'OutputPlots/Outputs/Power_scan_ions.fig')
-    close(ion_figure_p);
-    clear('ion_figure_p');
+% Power_scan_plot_ions
+%     CW.Format = 'eps';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_ions.eps',CW);
+%     CW.Format = 'png';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_ions.png',CW);
+%     savefig(gcf,'OutputPlots/Outputs/Power_scan_ions.fig')
+%     close(ion_figure_p);
+%     clear('ion_figure_p');
 
-Power_scan_plot_surface
-    CW.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_surface.eps',CW);
-    CW.Format = 'png';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_surface.png',CW);
-    savefig(gcf,'OutputPlots/Outputs/Power_scan_surface.fig')
-    close(surface_figure_p);
-    clear('surface_figure_p');
+% Power_scan_plot_surface
+%     CW.Format = 'eps';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_surface.eps',CW);
+%     CW.Format = 'png';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_surface.png',CW);
+%     savefig(gcf,'OutputPlots/Outputs/Power_scan_surface.fig')
+%     close(surface_figure_p);
+%     clear('surface_figure_p');
 
-Power_scan_plot_fractions
-    CW.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_fraction.eps',CW);
-    CW.Format = 'png';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_fraction.png',CW);
-    savefig(gcf,'OutputPlots/Outputs/Power_scan_fraction.fig')
-    close(fractions_figure_p);
-    clear('fractions_figure_p');
+% Power_scan_plot_fractions
+%     CW.Format = 'eps';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_fraction.eps',CW);
+%     CW.Format = 'png';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_fraction.png',CW);
+%     savefig(gcf,'OutputPlots/Outputs/Power_scan_fraction.fig')
+%     close(fractions_figure_p);
+%     clear('fractions_figure_p');
 
-Power_scan_plot_reactions_prod
-    CW.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_prod.eps',CW);
-    CW.Format = 'png';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_prod.png',CW);
-    savefig(gcf,'OutputPlots/Outputs/Power_scan_reaction_prod.fig')
-    close(reaction_figure);
-    clear('reaction_figure');
+% Power_scan_plot_reactions_prod
+%     CW.Format = 'eps';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_prod.eps',CW);
+%     CW.Format = 'png';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_prod.png',CW);
+%     savefig(gcf,'OutputPlots/Outputs/Power_scan_reaction_prod.fig')
+%     close(reaction_figure);
+%     clear('reaction_figure');
 
-Power_scan_plot_reactions_loss
-    CW.Format = 'eps';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_loss.eps',CW);
-    CW.Format = 'png';
-    hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_loss.png',CW);
-    savefig(gcf,'OutputPlots/Outputs/Power_scan_reaction_loss.fig')
-    close(reaction_figure);
-    clear('reaction_figure');
+% Power_scan_plot_reactions_loss
+%     CW.Format = 'eps';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_loss.eps',CW);
+%     CW.Format = 'png';
+%     hgexport(gcf,'OutputPlots/Outputs/Power_scan_reaction_loss.png',CW);
+%     savefig(gcf,'OutputPlots/Outputs/Power_scan_reaction_loss.fig')
+%     close(reaction_figure);
+%     clear('reaction_figure');
 
 
 close hidden

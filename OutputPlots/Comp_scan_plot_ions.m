@@ -31,7 +31,7 @@ pD('NH3')    = Find_in_SI2E('NH3');  pDe('NH3') = 17;
 
 pD('H+')     = Find_in_SI2E('H+');   pDe('H+')   =  1;
 pD('H2+')    = Find_in_SI2E('H2+');  pDe('H2+')  =  2;
-pD('H2+')    = Find_in_SI2E('H3+');  pDe('H3+')  =  3;
+pD('H3+')    = Find_in_SI2E('H3+');  pDe('H3+')  =  3;
 pD('N+')     = Find_in_SI2E('N+');   pDe('N+')   = 14;
 pD('N2+')    = Find_in_SI2E('N2+');  pDe('N2+')  = 28;
 pD('NH3+')   = Find_in_SI2E('NH3+'); pDe('NH3+') = 17;
