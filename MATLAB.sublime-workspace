@@ -4,16 +4,44 @@
 		"selected_items":
 		[
 			[
+				"Rec",
+				"Reaction_Key"
+			],
+			[
 				"loss",
 				"loss_keys"
 			],
 			[
-				"dis",
-				"display_string\t(Comp_scan_plot_reactions_loss.m)"
+				"pro",
+				"production_keys"
 			],
 			[
-				"pro",
-				"process_string"
+				"prodin",
+				"production_indices"
+			],
+			[
+				"Find",
+				"Find_in_RI2E"
+			],
+			[
+				"Reaction",
+				"Reaction_Key"
+			],
+			[
+				"Sp",
+				"Species_Search_Key"
+			],
+			[
+				"Spe",
+				"Species_Search"
+			],
+			[
+				"Species",
+				"Species_Key"
+			],
+			[
+				"dis",
+				"display_string\t(Comp_scan_plot_reactions_loss.m)"
 			],
 			[
 				"products",
@@ -50,10 +78,6 @@
 			[
 				"Max",
 				"max_NH3"
-			],
-			[
-				"Find",
-				"Find_in_SI2E"
 			],
 			[
 				"Com",
@@ -256,10 +280,6 @@
 				"logical"
 			],
 			[
-				"Spe",
-				"Species_I2E"
-			],
-			[
 				"In",
 				"IndependentVariable"
 			],
@@ -396,10 +416,6 @@
 				"ConvergencePrecision"
 			],
 			[
-				"Species",
-				"Species_I2E"
-			],
-			[
 				"Solve",
 				"SolveBalanceEquations"
 			],
@@ -430,10 +446,6 @@
 			[
 				"T",
 				"Te_column"
-			],
-			[
-				"Sp",
-				"SpeciesInterdependency"
 			],
 			[
 				"Speci",
@@ -502,18 +514,6 @@
 			[
 				"Cross",
 				"CrosssectionDB"
-			],
-			[
-				"Nega",
-				"NegativeIndices"
-			],
-			[
-				"Ill",
-				"IllegalSystemConditions"
-			],
-			[
-				"GUICon",
-				"GUI_control:SolveBalanceEquations:SystemDiverged"
 			]
 		]
 	},
@@ -714,17 +714,23 @@
 	"expanded_folders":
 	[
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/Classes",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/Classes/CoreClasses",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/External methods for GUI_control",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/External methods for GUI_control/Solver",
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots"
 	],
 	"file_history":
 	[
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/plot_prod_loss_general.m",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_all.m",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_ions.m",
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/plot_NH.m",
 		"/Users/thomasbody/Desktop/Rates.csv",
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_reactions_loss.m",
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Plot_NH4+.m",
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Plot_NH.m",
 		"/Users/thomasbody/Desktop/Rate for CAR_D7.csv",
-		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_all.m",
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_langmuir.m",
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/plot_all.m",
 		"/Users/Tom/Dropbox/Masters_Thesis/LaTeX/Weekly chapters/7July17.tex",
@@ -843,13 +849,11 @@
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/evaluate_PowerLoss.m",
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluation/Evaluation_CheckConvergence2.m",
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Precalculate_SystemStruct.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Build_InitialConditions.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Precalculate_ExperimentStruct.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/build_RateCoeffVector.m"
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Build_InitialConditions.m"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -877,6 +881,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"reaction_figure",
+			"process_string = strrep",
+			"max",
+			"Reaction_Key",
+			"production_keys",
+			"loss_indices",
+			"%%",
+			"rD",
+			"Species_Key",
 			")",
 			"rD(",
 			",",
@@ -995,16 +1008,7 @@
 			"Species_I2E.index",
 			"surface",
 			"ions",
-			"semilogy(Scan_values",
-			"y",
-			"FullWidth",
-			"ExportStyle",
-			"pD",
-			"neutral",
-			"Neutral",
-			"'H'",
-			"('",
-			",s"
+			"semilogy(Scan_values"
 		],
 		"highlight": true,
 		"in_selection": false,
