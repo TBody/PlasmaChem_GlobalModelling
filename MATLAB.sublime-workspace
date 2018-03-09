@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"H",
+				"H2Supply"
+			],
+			[
 				"Rec",
 				"Reaction_Key"
 			],
@@ -510,10 +514,6 @@
 			[
 				"Key",
 				"KeyList"
-			],
-			[
-				"Cross",
-				"CrosssectionDB"
 			]
 		]
 	},
@@ -714,16 +714,15 @@
 	"expanded_folders":
 	[
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB",
-		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/Classes",
-		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/Classes/CoreClasses",
-		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/External methods for GUI_control",
-		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/External methods for GUI_control/Solver",
-		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots"
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/New scan"
 	],
 	"file_history":
 	[
-		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/plot_prod_loss_general.m",
+		"/Volumes/HandBrake-1.0.7/doc/README.markdown",
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/New_scans_plot_all.m",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/Comp_scan_langmuir_MODIFIED_FOR_SINGLE_RUN.m",
+		"/Users/thomasbody/Desktop/plot_prod_loss_general.m",
+		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/plot_prod_loss_general.m",
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/Comp_scan_plot_ions.m",
 		"/Users/thomasbody/Dropbox/Undergraduate Research/MATLAB/OutputPlots/plot_NH.m",
 		"/Users/thomasbody/Desktop/Rates.csv",
@@ -846,14 +845,11 @@
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver2/SolveBalanceEquations2.m",
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver2/CheckFinalStep.m",
 		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/SolveBalanceEquations.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/evaluate_PowerLoss.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Evaluation/Evaluation_CheckConvergence2.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Precalculate_SystemStruct.m",
-		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/Build_InitialConditions.m"
+		"/Users/Tom/Dropbox/MATLAB_Unitless/External methods for GUI_control/Solver/evaluate_PowerLoss.m"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{

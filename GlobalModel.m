@@ -28,7 +28,7 @@ fprintf('Setting reactor parameters\nName: %s\nLength: %s\nRadius: %s\nWall type
 EvaluateTab_Reactor(Controller);
 
 %%Reaction
-Controller.H.ReactionCodeList.String = 'HJA*,THO*,CEL*,CAR*,KIM_[7-8],H2_*,H_*,N2_*,N_*,H2_Elastic';
+Controller.H.ReactionCodeList.String = 'HJA*,THO*,CEL*,CAR*,KIM_*,KIMN_*,H2_*,H_*,N2_*,N_*,H2_Elastic';
 fprintf('Setting reaction dataset\nCode list: %s\n\n', Controller.H.ReactionCodeList.String)
 Reaction_DB_Query(Controller);
 EvaluateTab_Reaction(Controller);

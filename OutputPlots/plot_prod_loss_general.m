@@ -21,7 +21,7 @@ MATLAB_colours = [         0    0.4470    0.7410; ...
 CW = hgexport('readstyle','ColumnWidth');
 FigureWidth_control = 'Column';
 
-Species_Search = 'NH3';
+Species_Search = 'NH';
 figure_path = '~/Desktop';
 
 % Load composition scan savestates% Computational
@@ -48,6 +48,14 @@ Species_Search_Key = Find_in_SI2E(Species_Search);
 
 loss_indices = find(Controller.Solver.SystemStruct.ProductionMatrix(Species_Search_Key,:)<0);
 production_indices = find(Controller.Solver.SystemStruct.ProductionMatrix(Species_Search_Key,:)>0);
+
+% Return the total production/loss rate (should be equal at equilibrium)
+total_rate = zeros(length(Scan_values),1);
+for index = 1:length(Scan_values)
+    total_rate(index) = Controller.Solver.SystemStruct.ProductionMatrix(Species_Search_Key,:)*Rate(:,index);
+end
+%Print out a table of these
+table(Scan_values', total_rate,'VariableNames',{'H2Supply','TotalRate'})
 
 loss_keys = {};
 production_keys = {};

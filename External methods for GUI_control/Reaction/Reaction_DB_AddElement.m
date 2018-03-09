@@ -29,9 +29,9 @@ function UpdateReaction(Controller,ReactionCode)
 		Energy,...
 		ReactionType);
 	Controller.Global.ReactionsUpdated = true;
-	%load('DB_MAIN','ReactionDB_MAIN');
-	%ReactionDB_MAIN.add(Reaction.Key,Reaction); %Also updates
-	%save('Databases/DB_MAIN','ReactionDB_MAIN','-append');
+    load('DB_MAIN','ReactionDB_MAIN');
+	ReactionDB_MAIN.add(Reaction.Key,Reaction); %Also updates
+	save('Databases/DB_MAIN','ReactionDB_MAIN','-append');
 	Controller.ReactionDB.add(Reaction.Key,Reaction);
 end
 function SpeciesDict = CountList(SpeciesList)
