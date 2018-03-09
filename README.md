@@ -1,7 +1,7 @@
 # PlasmaChem_GlobalModelling
 MATLAB code for simplifying development of global (volume-averaged) plasma chemistry models
 
-Author: Thomas Body. Contact [thomas.body@alumni.anu.edu](mailto:thomas.body@alumni.anu.edu)
+Author: Thomas Body. Contact [thomas.body@alumni.anu.edu.au](mailto:thomas.body@alumni.anu.edu.au)
 Requires MATLAB R2015B or later.
  
 ## To use source code
